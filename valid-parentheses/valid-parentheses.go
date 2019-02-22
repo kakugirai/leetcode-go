@@ -1,56 +1,43 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-type stack []string
+type stack []byte
 
-func (s stack) Push(v string) stack {
+func (s stack) Push(v byte) stack {
 	return append(s, v)
 }
 
-func (s stack) Pop() string {
-	//l := len(s)
-	return s[0]
+func (s stack) Pop() (stack, byte) {
+	return s[:len(s)-1], s[len(s)-1]
 }
 
 func main() {
-	v := "{}["
-	//m := map[string]string{")": "(", "}": "{", "]": "["}
-	s := make(stack, 0)
-	s.Push("a")
-	a := s.Pop()
-	fmt.Println(a)
-	fmt.Println(v[0])
-	fmt.Println(isValid(v))
+	str := "{}[]"
+	fmt.Println(isValid(str))
 }
 
 func isValid(str string) (bool, stack) {
 	// create the stack to keep track of brackets
 	s := make(stack, 0)
 	// create a hash map to keep track of mappings
-	m := map[string]string{")": "(", "}": "{", "]": "["}
+	m := map[byte]byte{')': '(', '}': '{', ']': '['}
 	// for every brackets in the expressions
-	for _, v := range str {
+	for i := range str {
 		// if the character is an closing bracket
-		if _, ok := m[string(v)]; ok {
-			var topElement string
+		if _, ok := m[str[i]]; ok {
+			var topElement byte
 			if len(s) != 0 {
-				topElement = s.Pop()
+				s, topElement = s.Pop()
 			} else {
-				topElement = "#"
+				topElement = '#'
 			}
-			if m[string(v)] != topElement {
+			if m[str[i]] != topElement {
 				return false, s
 			}
 		} else {
-			s.Push(string(v))
+			s.Push(str[i])
 		}
 	}
-	if len(s) == 0 {
-		return true, s
-	} else {
-		return false, s
-	}
+	return len(s) == 0, s
 }
