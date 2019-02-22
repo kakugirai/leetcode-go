@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/labstack/gommon/log"
+)
 
 func f(from string) {
 	for i := 0; i < 3; i++ {
@@ -16,9 +19,11 @@ func main() {
 		fmt.Println(msg)
 	}("going")
 
-	f("direct")
-
+	//f("direct")
 	var input string
-	fmt.Scanln(&input)
+	_, err := fmt.Scanln(&input)
+	if err != nil {
+		log.Fatal(err)
+	}
 	fmt.Println("done")
 }

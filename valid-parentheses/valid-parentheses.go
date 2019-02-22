@@ -13,31 +13,35 @@ func (s stack) Pop() (stack, byte) {
 }
 
 func main() {
-	str := "{}[]"
+	str := "{}["
 	fmt.Println(isValid(str))
 }
 
-func isValid(str string) (bool, stack) {
+func isValid(str string) bool {
 	// create the stack to keep track of brackets
-	s := make(stack, 0)
+	var s stack
+	//s := make(stack, 0)
 	// create a hash map to keep track of mappings
 	m := map[byte]byte{')': '(', '}': '{', ']': '['}
 	// for every brackets in the expressions
 	for i := range str {
 		// if the character is an closing bracket
 		if _, ok := m[str[i]]; ok {
-			var topElement byte
+			// get the top byte in the stack
+			var topByte byte
 			if len(s) != 0 {
-				s, topElement = s.Pop()
+				s, topByte = s.Pop()
 			} else {
-				topElement = '#'
+				// placeholder
+				topByte = '#'
 			}
-			if m[str[i]] != topElement {
-				return false, s
+			// if the closing bracket is not our top byte
+			if m[str[i]] != topByte {
+				return false
 			}
 		} else {
-			s.Push(str[i])
+			s = s.Push(str[i])
 		}
 	}
-	return len(s) == 0, s
+	return len(s) == 0
 }
