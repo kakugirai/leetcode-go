@@ -31,7 +31,8 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		return l1
 	}
 
-	// find the link list started with smaller node and use it as head
+	// find the link list started with smaller node
+	// set the first node as head
 	var head, node *ListNode
 	if l1.Val < l2.Val {
 		head = l1
@@ -43,6 +44,8 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		l2 = l2.Next
 	}
 
+	// loop through l1 and l2
+	// shift to the next node
 	for l1 != nil && l2 != nil {
 		if l1.Val < l2.Val {
 			l1, node.Next = l1.Next, l1
@@ -52,12 +55,13 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		node = node.Next
 	}
 
+	// if one of the link lists ended, link to the other one
 	if l1 != nil {
 		node.Next = l1
 	}
-
 	if l2 != nil {
 		node.Next = l2
 	}
+
 	return head
 }
