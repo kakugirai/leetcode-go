@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/labstack/gommon/log"
+	"log"
 )
 
 func f(from string) {
