@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
 type stack []*TreeNode
 
 func (stk stack) Push(node *TreeNode) stack {
@@ -12,24 +18,27 @@ func (stk stack) Pop() (stack, *TreeNode) {
 	return stk[:len(stk)-1], stk[len(stk)-1]
 }
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func inorderTraversal(root *TreeNode) []int {
 	// left, visit, right
 	var result []int
-	//var stk stack
+	var stk stack
 	for root != nil {
-		if root.Left == nil {
-			if root.Right == nil {
-				result = append(result, root.Val)
-			}
-			root = root.Right
+		if root.Left != nil {
+			stk = stk.Push(root)
+			root = root.Left
+			continue
 		}
-		root = root.Left
+		result = append(result, root.Val)
+		if root.Right != nil {
+			root = root.Right
+			continue
+		}
+		if len(stk) != 0 {
+			stk, root = stk.Pop()
+			root.Left = nil
+			continue
+		}
+		break
 	}
 	return result
 }
