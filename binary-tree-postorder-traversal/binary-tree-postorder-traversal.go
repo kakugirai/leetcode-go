@@ -18,27 +18,27 @@ func (stk stack) Pop() (stack, *TreeNode) {
 	return stk[:len(stk)-1], stk[len(stk)-1]
 }
 
-func inorderTraversal(root *TreeNode) []int {
-	// left, visit, right
+func postorderTraversal(root *TreeNode) []int {
 	var result []int
 	var stk stack
-	for {
+	if root == nil {
+		return result
+	}
+	stk = stk.Push(root)
+	for len(stk) != 0 {
+		stk, root = stk.Pop()
 		if root.Left != nil {
-			stk = stk.Push(root)
-			root = root.Left
-			continue
+			stk = stk.Push(root.Left)
+		}
+		if root.Right != nil {
+			stk = stk.Push(root.Right)
 		}
 		result = append(result, root.Val)
-		if root.Right != nil {
-			root = root.Right
-			continue
-		}
-		if len(stk) != 0 {
-			stk, root = stk.Pop()
-			root.Left = nil
-			continue
-		}
-		break
+	}
+
+	for i := len(result)/2 - 1; i >= 0; i-- {
+		opp := len(result) - 1 - i
+		result[i], result[opp] = result[opp], result[i]
 	}
 	return result
 }
@@ -55,5 +55,5 @@ func main() {
 				&TreeNode{8, nil, nil},
 				&TreeNode{9, nil, nil}},
 			nil}}
-	fmt.Println(inorderTraversal(tree))
+	fmt.Println(postorderTraversal(tree))
 }
