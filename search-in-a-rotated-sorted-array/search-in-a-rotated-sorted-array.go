@@ -11,7 +11,7 @@ func search(nums []int, target int) int {
 	right := len(nums) - 1
 
 	for left <= right {
-		mid := left + (right-left)/2
+		mid := (left + right) >> 1
 		comparator := nums[mid]
 		if (target < nums[0]) && (nums[mid] < nums[0]) || (target >= nums[0]) && (nums[mid] >= nums[0]) {
 			comparator = nums[mid]
