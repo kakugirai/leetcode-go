@@ -1,25 +1,19 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
 
-type Vertex struct {
-	X, Y float64
+func printReverse(str []byte) {
+	helper(0, str)
 }
 
-func (v Vertex) Abs() float64 {
-	return math.Sqrt(v.X*v.X + v.Y*v.Y)
-}
-
-func (v *Vertex) Scale(f float64) {
-	v.X = v.X * f
-	v.Y = v.Y * f
+func helper(idx int, str []byte) {
+	if idx >= len(str) {
+		return
+	}
+	helper(idx+1, str)
+	fmt.Println(str[idx])
 }
 
 func main() {
-	v := Vertex{3, 4}
-	v.Scale(10)
-	fmt.Println(v.Abs())
+	printReverse([]byte{1, 2, 3, 4})
 }
