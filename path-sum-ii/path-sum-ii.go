@@ -25,10 +25,8 @@ func findPaths(root *TreeNode, sum int, current []int, paths *[][]int) {
 		*paths = append(*paths, current)
 		return
 	}
-	temp := make([]int, len(current))
-	copy(temp, current)
-	findPaths(root.Left, sum-root.Val, temp, paths)
-	findPaths(root.Right, sum-root.Val, temp, paths)
+	findPaths(root.Left, sum-root.Val, current, paths)
+	findPaths(root.Right, sum-root.Val, current, paths)
 }
 
 func main() {
