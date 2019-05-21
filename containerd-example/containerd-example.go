@@ -1,2 +1,0 @@
-package containerd_example
-
