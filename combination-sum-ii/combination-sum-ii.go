@@ -7,8 +7,6 @@ import (
 
 func combinationSum2(candidates []int, target int) [][]int {
 	sort.Ints(candidates)
-
-	fmt.Println(candidates)
 	var result [][]int
 	var current []int
 	findCombination(candidates, 0, target, current, &result)
