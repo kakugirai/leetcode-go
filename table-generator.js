@@ -7,7 +7,7 @@ const questions = fs.readFileSync("questions.txt", {
   encoding: "utf8"
 }).split('\n');
 
-(async() => {
+(async () => {
   for (let i = 0; i < questions.length; i++) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
@@ -15,9 +15,12 @@ const questions = fs.readFileSync("questions.txt", {
     await page.goto(link, {
       waitUntil: 'networkidle0'
     });
-    const element = await page.$("#question-title");
-    const title = await page.evaluate(element => element.textContent, element);
-    console.log("|[%s](%s)|[Solution](src/%s)|", title, link, questions[i]);
+    const titleElement = await page.$("#question-title");
+    const title = await page.evaluate(element => element.textContent, titleElement);
+    const diffElement = await page.$("[diff]");
+    const diff = await page.evaluate(element => element.textContent, diffElement);
+    console.log("|[%s](%s)|[Solution](src/%s)|%s|", title, link, questions[i], diff);
+
     await browser.close();
   }
 })();
