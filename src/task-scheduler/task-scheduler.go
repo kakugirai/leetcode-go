@@ -32,9 +32,8 @@ func leastInterval(tasks []byte, n int) int {
 
 	if idles > 0 {
 		return len(tasks) + idles
-	} else {
-		return len(tasks)
 	}
+	return len(tasks)
 }
 
 func main() {

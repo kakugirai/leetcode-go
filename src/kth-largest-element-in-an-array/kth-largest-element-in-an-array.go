@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// IntHeap is an array
 type IntHeap []int
 
 func (h IntHeap) Len() int {
@@ -18,10 +19,12 @@ func (h IntHeap) Swap(i, j int) {
 	h[i], h[j] = h[j], h[i]
 }
 
+// Push int into IntHeap
 func (h *IntHeap) Push(x interface{}) {
 	*h = append(*h, x.(int))
 }
 
+// Pop int out of IntHeap
 func (h *IntHeap) Pop() interface{} {
 	old := *h
 	n := len(old)

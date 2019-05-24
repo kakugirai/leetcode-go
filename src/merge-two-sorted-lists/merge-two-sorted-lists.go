@@ -16,7 +16,7 @@ func main() {
 	fmt.Println(*mergeTwoLists(l1, l2))
 }
 
-// Definition for singly-linked list.
+// ListNode is a singly-linked list.
 type ListNode struct {
 	Val  int
 	Next *ListNode

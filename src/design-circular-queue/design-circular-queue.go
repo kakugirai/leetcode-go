@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// MyCircularQueue is a circular queue
 type MyCircularQueue struct {
 	elements []int
 	capacity int
@@ -9,7 +10,7 @@ type MyCircularQueue struct {
 	rear     int
 }
 
-/** Initialize your data structure here. Set the size of the queue to be k. */
+// Constructor initializes the data structure. Set the size of the queue to be k.
 func Constructor(k int) MyCircularQueue {
 	cq := MyCircularQueue{capacity: k, front: 0, rear: 0}
 	cq.elements = make([]int, cq.capacity)
@@ -18,7 +19,7 @@ func Constructor(k int) MyCircularQueue {
 	return cq
 }
 
-/** Insert an element into the circular queue. Return true if the operation is successful. */
+// EnQueue inserts an element into the circular queue. Return true if the operation is successful.
 func (cq *MyCircularQueue) EnQueue(value int) bool {
 	if cq.IsFull() {
 		return false
@@ -31,7 +32,7 @@ func (cq *MyCircularQueue) EnQueue(value int) bool {
 	return true
 }
 
-/** Delete an element from the circular queue. Return true if the operation is successful. */
+// DeQueue deletes an element from the circular queue. Return true if the operation is successful.
 func (cq *MyCircularQueue) DeQueue() bool {
 	if cq.IsEmpty() {
 		return false
@@ -45,7 +46,7 @@ func (cq *MyCircularQueue) DeQueue() bool {
 	return true
 }
 
-/** Get the front item from the queue. */
+// Front gets the front item from the queue.
 func (cq *MyCircularQueue) Front() int {
 	if cq.IsEmpty() {
 		return -1
@@ -53,7 +54,7 @@ func (cq *MyCircularQueue) Front() int {
 	return cq.elements[cq.front]
 }
 
-/** Get the last item from the queue. */
+// Rear gets the last item from the queue.
 func (cq *MyCircularQueue) Rear() int {
 	if cq.IsEmpty() {
 		return -1
@@ -61,12 +62,12 @@ func (cq *MyCircularQueue) Rear() int {
 	return cq.elements[cq.rear]
 }
 
-/** Checks whether the circular queue is empty or not. */
+// IsEmpty checks whether the circular queue is empty or not.
 func (cq *MyCircularQueue) IsEmpty() bool {
 	return cq.front == -1
 }
 
-/** Checks whether the circular queue is full or not. */
+// IsFull checks whether the circular queue is full or not.
 func (cq *MyCircularQueue) IsFull() bool {
 	return cq.front == (cq.rear+1)%cq.capacity
 }

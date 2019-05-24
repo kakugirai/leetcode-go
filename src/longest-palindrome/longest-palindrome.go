@@ -21,9 +21,8 @@ func longestPalindrome(s string) int {
 	}
 	if haveOddNumber {
 		return result + 1
-	} else {
-		return result
 	}
+	return result
 }
 
 func main() {

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//Definition for TreeNode.
+// TreeNode is a binary tree node
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode

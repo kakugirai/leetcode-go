@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Definition for a binary tree node.
+// TreeNode is a binary tree node
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode

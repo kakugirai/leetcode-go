@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// Point in a coordinate system
 type Point struct {
 	x        int
 	y        int
@@ -12,6 +13,7 @@ type Point struct {
 	index    int
 }
 
+// PriorityQueue contains points
 type PriorityQueue []*Point
 
 func (pq PriorityQueue) Len() int {
@@ -29,6 +31,7 @@ func (pq PriorityQueue) Swap(i, j int) {
 	pq[j].index = j
 }
 
+// Push point into PriorityQueue
 func (pq *PriorityQueue) Push(x interface{}) {
 	n := len(*pq)
 	point := x.(*Point)
@@ -36,6 +39,7 @@ func (pq *PriorityQueue) Push(x interface{}) {
 	*pq = append(*pq, point)
 }
 
+// Pop point from PriorityQueue
 func (pq *PriorityQueue) Pop() interface{} {
 	old := *pq
 	n := len(old)
