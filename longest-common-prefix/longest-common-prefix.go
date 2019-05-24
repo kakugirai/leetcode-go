@@ -8,7 +8,7 @@ import (
 func main() {
 	strs := []string{"flower", "flow", "flo"}
 	fmt.Println(longestCommonPrefix4(strs))
-	fmt.Println(1<<32-1)
+	fmt.Println(1<<32 - 1)
 }
 
 // Approach 1: Horizontal scanning
@@ -57,12 +57,11 @@ func longestCommonPrefix3(strs []string) string {
 func longestCommonPrefixT(strs []string, l int, r int) string {
 	if l == r {
 		return strs[l]
-	} else {
-		mid := (l+r)/2
-		lcpLeft := longestCommonPrefixT(strs, l, mid)
-		lcpRight := longestCommonPrefixT(strs, mid+1, r)
-		return commonPrefix(lcpLeft, lcpRight)
 	}
+	mid := (l + r) / 2
+	lcpLeft := longestCommonPrefixT(strs, l, mid)
+	lcpRight := longestCommonPrefixT(strs, mid+1, r)
+	return commonPrefix(lcpLeft, lcpRight)
 }
 
 func commonPrefix(left string, right string) string {
@@ -102,7 +101,7 @@ func longestCommonPrefix4(strs []string) string {
 			low = middle - 1
 		}
 	}
-	return strs[0][0:(low + high) / 2]
+	return strs[0][0 : (low+high)/2]
 }
 
 func isCommonPrefix(strs []string, len int) bool {
