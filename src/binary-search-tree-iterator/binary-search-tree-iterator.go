@@ -1,12 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // TreeNode is a binary tree node
 type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
+    Val int
+    Left *TreeNode
+    Right *TreeNode
 }
 
 type stack []*TreeNode
@@ -47,6 +49,31 @@ func inorderTraversal(root *TreeNode) []int {
 	return result
 }
 
+type BSTIterator struct {
+	current int
+	result []int
+}
+
+func Constructor(root *TreeNode) BSTIterator {
+	result := inorderTraversal(root)
+	return BSTIterator{current: -1, result: result}
+}
+
+/** @return the next smallest number */
+func (this *BSTIterator) Next() int {
+	this.current++
+	return this.result[this.current]
+}
+
+
+/** @return whether we have a next smallest number */
+func (this *BSTIterator) HasNext() bool {
+	if this.current+1 >= len(this.result) {
+		return false
+	}
+	return true
+}
+
 func main() {
 	tree := &TreeNode{1,
 		&TreeNode{2,
@@ -59,5 +86,13 @@ func main() {
 				&TreeNode{8, nil, nil},
 				&TreeNode{9, nil, nil}},
 			nil}}
-	fmt.Println(inorderTraversal(tree))
+	obj := Constructor(tree)
+	fmt.Println(obj.Next())
 }
+
+/**
+ * Your BSTIterator object will be instantiated and called as such:
+ * obj := Constructor(root);
+ * param_1 := obj.Next();
+ * param_2 := obj.HasNext();
+ */
