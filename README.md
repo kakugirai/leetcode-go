@@ -4,115 +4,123 @@
 
 My LeetCode solutions written in Go.
 
-| Question                                                                                                                                             |                                Solution                                 | Difficulty |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------: | :--------: |
-| [1. Two Sum](https://leetcode.com/problems/two-sum)                                                                                                  |                         [Solution](src/two-sum)                         |    Easy    |
-| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)                                                          |               [Solution](src/median-of-two-sorted-arrays)               |    Hard    |
-| [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)                                                                                  |                     [Solution](src/reverse-integer)                     |    Easy    |
-| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number)                                                                              |                    [Solution](src/palindrome-number)                    |    Easy    |
-| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)                                                             |                [Solution](src/container-with-most-water)                |   Medium   |
-| [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)                                                                               |                    [Solution](src/roman-to-integer)                     |    Easy    |
-| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                                                                     |                  [Solution](src/longest-common-prefix)                  |    Easy    |
-| [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)                                     |          [Solution](src/letter-combinations-of-a-phone-number)          |   Medium   |
-| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                                             |                    [Solution](src/valid-parentheses)                    |    Easy    |
-| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                                                                   |                 [Solution](src/merge-two-sorted-lists)                  |    Easy    |
-| [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)                                                                         |                   [Solution](src/swap-nodes-in-pairs)                   |   Medium   |
-| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)                                         |           [Solution](src/remove-duplicates-from-sorted-array)           |    Easy    |
-| [27. Remove Element](https://leetcode.com/problems/remove-element)                                                                                   |                     [Solution](src/remove-element)                      |    Easy    |
-| [28. Implement strStr()](https://leetcode.com/problems/implement-strstr)                                                                             |                    [Solution](src/implement-strstr)                     |    Easy    |
-| [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)                                                   |             [Solution](src/search-in-rotated-sorted-array)              |   Medium   |
-| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Solution](src/find-first-and-last-position-of-element-in-sorted-array) |   Medium   |
-| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)                                                                   |                 [Solution](src/search-insert-position)                  |    Easy    |
-| [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)                                                                                       |                      [Solution](src/valid-sudoku)                       |   Medium   |
-| [38. Count and Say](https://leetcode.com/problems/count-and-say)                                                                                     |                      [Solution](src/count-and-say)                      |    Easy    |
-| [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii)                                                                           |                   [Solution](src/combination-sum-ii)                    |   Medium   |
-| [49. Group Anagrams](https://leetcode.com/problems/group-anagrams)                                                                                   |                     [Solution](src/group-anagrams)                      |   Medium   |
-| [50. Pow(x, n)](https://leetcode.com/problems/powx-n)                                                                                                |                         [Solution](src/powx-n)                          |   Medium   |
-| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray)                                                                               |                    [Solution](src/maximum-subarray)                     |    Easy    |
-| [62. Unique Paths](https://leetcode.com/problems/unique-paths)                                                                                       |                      [Solution](src/unique-paths)                       |   Medium   |
-| [66. Plus One](https://leetcode.com/problems/plus-one)                                                                                               |                        [Solution](src/plus-one)                         |    Easy    |
-| [67. Add Binary](https://leetcode.com/problems/add-binary)                                                                                           |                       [Solution](src/add-binary)                        |    Easy    |
-| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)                                                                                                   |                          [Solution](src/sqrtx)                          |    Easy    |
-| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)                                                                                 |                     [Solution](src/climbing-stairs)                     |    Easy    |
-| [79. Word Search](https://leetcode.com/problems/word-search)                                                                                         |                       [Solution](src/word-search)                       |   Medium   |
-| [91. Decode Ways](https://leetcode.com/problems/decode-ways)                                                                                         |                       [Solution](src/decode-ways)                       |   Medium   |
-| [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)                                                     |              [Solution](src/binary-tree-inorder-traversal)              |   Medium   |
-| [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)                                                         |               [Solution](src/validate-binary-search-tree)               |   Medium   |
-| [100. Same Tree](https://leetcode.com/problems/same-tree)                                                                                            |                        [Solution](src/same-tree)                        |    Easy    |
-| [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree)                                                                                  |                     [Solution](src/symmetric-tree)                      |    Easy    |
-| [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)                                            |            [Solution](src/binary-tree-level-order-traversal)            |   Medium   |
-| [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)                                                      |              [Solution](src/maximum-depth-of-binary-tree)               |    Easy    |
-| [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)                          |       [Solution](src/convert-sorted-array-to-binary-search-tree)        |    Easy    |
-| [112. Path Sum](https://leetcode.com/problems/path-sum)                                                                                              |                        [Solution](src/path-sum)                         |    Easy    |
-| [113. Path Sum II](https://leetcode.com/problems/path-sum-ii)                                                                                        |                       [Solution](src/path-sum-ii)                       |   Medium   |
-| [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)                                                                             |                    [Solution](src/pascals-triangle)                     |    Easy    |
-| [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)                                                                       |                   [Solution](src/pascals-triangle-ii)                   |    Easy    |
-| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                                                |             [Solution](src/best-time-to-buy-and-sell-stock)             |    Easy    |
-| [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)                                          |           [Solution](src/best-time-to-buy-and-sell-stock-ii)            |    Easy    |
-| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                                                                              |                    [Solution](src/valid-palindrome)                     |    Easy    |
-| [136. Single Number](https://leetcode.com/problems/single-number)                                                                                    |                      [Solution](src/single-number)                      |    Easy    |
-| [137. Single Number II](https://leetcode.com/problems/single-number-ii)                                                                              |                    [Solution](src/single-number-ii)                     |   Medium   |
-| [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)                                                  |             [Solution](src/binary-tree-preorder-traversal)              |   Medium   |
-| [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)                                                |             [Solution](src/binary-tree-postorder-traversal)             |    Hard    |
-| [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)                                      |          [Solution](src/find-minimum-in-rotated-sorted-array)           |   Medium   |
-| [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)                                |         [Solution](src/find-minimum-in-rotated-sorted-array-ii)         |    Hard    |
-| [162. Find Peak Element](https://leetcode.com/problems/find-peak-element)                                                                            |                    [Solution](src/find-peak-element)                    |   Medium   |
-| [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)                                            |            [Solution](src/two-sum-ii-input-array-is-sorted)             |    Easy    |
-| [169. Majority Element](https://leetcode.com/problems/majority-element)                                                                              |                    [Solution](src/majority-element)                     |    Easy    |
-| [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)                                                        |               [Solution](src/binary-search-tree-iterator)               |   Medium   |
-| [189. Rotate Array](https://leetcode.com/problems/rotate-array)                                                                                      |                      [Solution](src/rotate-array)                       |    Easy    |
-| [198. House Robber](https://leetcode.com/problems/house-robber)                                                                                      |                      [Solution](src/house-robber)                       |    Easy    |
-| [200. Number of Islands](https://leetcode.com/problems/number-of-islands)                                                                            |                    [Solution](src/number-of-islands)                    |   Medium   |
-| [202. Happy Number](https://leetcode.com/problems/happy-number)                                                                                      |                      [Solution](src/happy-number)                       |    Easy    |
-| [204. Count Primes](https://leetcode.com/problems/count-primes)                                                                                      |                      [Solution](src/count-primes)                       |    Easy    |
-| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)                                                                        |                   [Solution](src/reverse-linked-list)                   |    Easy    |
-| [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)                                                |             [Solution](src/kth-largest-element-in-an-array)             |   Medium   |
-| [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                                                          |                   [Solution](src/contains-duplicate)                    |    Easy    |
-| [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)                                                                    |                  [Solution](src/contains-duplicate-ii)                  |    Easy    |
-| [231. Power of Two](https://leetcode.com/problems/power-of-two)                                                                                      |                      [Solution](src/power-of-two)                       |    Easy    |
-| [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)                  |     [Solution](src/lowest-common-ancestor-of-a-binary-search-tree)      |    Easy    |
-| [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)                                                                                    |                      [Solution](src/valid-anagram)                      |    Easy    |
-| [268. Missing Number](https://leetcode.com/problems/missing-number)                                                                                  |                     [Solution](src/missing-number)                      |    Easy    |
-| [279. Perfect Squares](https://leetcode.com/problems/perfect-squares)                                                                                |                     [Solution](src/perfect-squares)                     |   Medium   |
-| [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)                                                                                        |                       [Solution](src/move-zeroes)                       |    Easy    |
-| [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)                                                            |                [Solution](src/find-the-duplicate-number)                |   Medium   |
-| [344. Reverse String](https://leetcode.com/problems/reverse-string)                                                                                  |                     [Solution](src/reverse-string)                      |    Easy    |
-| [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)                                                          |               [Solution](src/intersection-of-two-arrays)                |    Easy    |
-| [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)                                                    |              [Solution](src/intersection-of-two-arrays-ii)              |    Easy    |
-| [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)                                                                      |                  [Solution](src/valid-perfect-square)                   |    Easy    |
-| [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)                                          |           [Solution](src/first-unique-character-in-a-string)            |    Easy    |
-| [389. Find the Difference](https://leetcode.com/problems/find-the-difference)                                                                        |                   [Solution](src/find-the-difference)                   |    Easy    |
-| [403. Frog Jump](https://leetcode.com/problems/frog-jump)                                                                                            |                        [Solution](src/frog-jump)                        |    Hard    |
-| [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves)                                                                          |                   [Solution](src/sum-of-left-leaves)                    |    Easy    |
-| [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome)                                                                          |                   [Solution](src/longest-palindrome)                    |    Easy    |
-| [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz)                                                                                            |                        [Solution](src/fizz-buzz)                        |    Easy    |
-| [419. Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board)                                                                  |                 [Solution](src/battleships-in-a-board)                  |   Medium   |
-| [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)                              |        [Solution](src/find-all-numbers-disappeared-in-an-array)         |    Easy    |
-| [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)                                                      |              [Solution](src/sort-characters-by-frequency)               |   Medium   |
-| [461. Hamming Distance](https://leetcode.com/problems/hamming-distance)                                                                              |                    [Solution](src/hamming-distance)                     |    Easy    |
-| [476. Number Complement](https://leetcode.com/problems/number-complement)                                                                            |                    [Solution](src/number-complement)                    |    Easy    |
-| [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting)                                                                  |                 [Solution](src/license-key-formatting)                  |    Easy    |
-| [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number)                                                                              |                    [Solution](src/fibonacci-number)                     |    Easy    |
-| [520. Detect Capital](https://leetcode.com/problems/detect-capital)                                                                                  |                     [Solution](src/detect-capital)                      |    Easy    |
-| [621. Task Scheduler](https://leetcode.com/problems/task-scheduler)                                                                                  |                     [Solution](src/task-scheduler)                      |   Medium   |
-| [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue)                                                                    |                  [Solution](src/design-circular-queue)                  |   Medium   |
-| [657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin)                                                                  |                 [Solution](src/robot-return-to-origin)                  |    Easy    |
-| [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)                                                                |                 [Solution](src/find-k-closest-elements)                 |   Medium   |
-| [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)                                                                        |                   [Solution](src/valid-palindrome-ii)                   |    Easy    |
-| [693. Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)                                        |           [Solution](src/binary-number-with-alternating-bits)           |    Easy    |
-| [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island)                                                                          |                   [Solution](src/max-area-of-island)                    |   Medium   |
-| [704. Binary Search](https://leetcode.com/problems/binary-search)                                                                                    |                      [Solution](src/binary-search)                      |    Easy    |
-| [733. Flood Fill](https://leetcode.com/problems/flood-fill)                                                                                          |                       [Solution](src/flood-fill)                        |    Easy    |
-| [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)                              |        [Solution](src/find-smallest-letter-greater-than-target)         |    Easy    |
-| [763. Partition Labels](https://leetcode.com/problems/partition-labels)                                                                              |                    [Solution](src/partition-labels)                     |   Medium   |
-| [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)                                                                            |                    [Solution](src/jewels-and-stones)                    |    Easy    |
-| [819. Most Common Word](https://leetcode.com/problems/most-common-word)                                                                              |                    [Solution](src/most-common-word)                     |    Easy    |
-| [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image)                                                                            |                    [Solution](src/flipping-an-image)                    |    Easy    |
-| [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)                                                                                  |                     [Solution](src/keys-and-rooms)                      |   Medium   |
-| [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)                                                              |                [Solution](src/backspace-string-compare)                 |    Easy    |
-| [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people)                                                                      |                  [Solution](src/boats-to-save-people)                   |   Medium   |
-| [896. Monotonic Array](https://leetcode.com/problems/monotonic-array)                                                                                |                     [Solution](src/monotonic-array)                     |    Easy    |
-| [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)                                                                          |                   [Solution](src/fruit-into-baskets)                    |   Medium   |
-| [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)                                                                      |                  [Solution](src/sort-array-by-parity)                   |    Easy    |
-| [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)                                                                  |                 [Solution](src/unique-email-addresses)                  |    Easy    |
-| [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)                                                          |               [Solution](src/k-closest-points-to-origin)                |   Medium   |
+| Question ID | Question | Difficulty | Solution |
+| :---------: | -------- | :--------: | :------: |
+|1|[Two Sum](https://leetcode.com/problems/two-sum)|Easy|[Solution](src/two-sum)|
+|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|Hard|[Solution](src/median-of-two-sorted-arrays)|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|Easy|[Solution](src/reverse-integer)|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|Easy|[Solution](src/palindrome-number)|
+|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|Medium|[Solution](src/container-with-most-water)|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|Easy|[Solution](src/roman-to-integer)|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|Easy|[Solution](src/longest-common-prefix)|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|Medium|[Solution](src/letter-combinations-of-a-phone-number)|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|Easy|[Solution](src/valid-parentheses)|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|Easy|[Solution](src/merge-two-sorted-lists)|
+|24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|Medium|[Solution](src/swap-nodes-in-pairs)|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|Easy|[Solution](src/remove-duplicates-from-sorted-array)|
+|27|[Remove Element](https://leetcode.com/problems/remove-element)|Easy|[Solution](src/remove-element)|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|Easy|[Solution](src/implement-strstr)|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|Medium|[Solution](src/search-in-rotated-sorted-array)|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|Medium|[Solution](src/find-first-and-last-position-of-element-in-sorted-array)|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|Easy|[Solution](src/search-insert-position)|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|Medium|[Solution](src/valid-sudoku)|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say)|Easy|[Solution](src/count-and-say)|
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|Medium|[Solution](src/combination-sum-ii)|
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|Medium|[Solution](src/group-anagrams)|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|Medium|[Solution](src/powx-n)|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|Easy|[Solution](src/maximum-subarray)|
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths)|Medium|[Solution](src/unique-paths)|
+|66|[Plus One](https://leetcode.com/problems/plus-one)|Easy|[Solution](src/plus-one)|
+|67|[Add Binary](https://leetcode.com/problems/add-binary)|Easy|[Solution](src/add-binary)|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|Easy|[Solution](src/sqrtx)|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|Easy|[Solution](src/climbing-stairs)|
+|79|[Word Search](https://leetcode.com/problems/word-search)|Medium|[Solution](src/word-search)|
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways)|Medium|[Solution](src/decode-ways)|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|Medium|[Solution](src/binary-tree-inorder-traversal)|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|Medium|[Solution](src/validate-binary-search-tree)|
+|100|[Same Tree](https://leetcode.com/problems/same-tree)|Easy|[Solution](src/same-tree)|
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree)|Easy|[Solution](src/symmetric-tree)|
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|Medium|[Solution](src/binary-tree-level-order-traversal)|
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|Easy|[Solution](src/maximum-depth-of-binary-tree)|
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|Easy|[Solution](src/convert-sorted-array-to-binary-search-tree)|
+|112|[Path Sum](https://leetcode.com/problems/path-sum)|Easy|[Solution](src/path-sum)|
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii)|Medium|[Solution](src/path-sum-ii)|
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|Easy|[Solution](src/pascals-triangle)|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|Easy|[Solution](src/pascals-triangle-ii)|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|Easy|[Solution](src/best-time-to-buy-and-sell-stock)|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|Easy|[Solution](src/best-time-to-buy-and-sell-stock-ii)|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome)|Easy|[Solution](src/valid-palindrome)|
+|136|[Single Number](https://leetcode.com/problems/single-number)|Easy|[Solution](src/single-number)|
+|137|[Single Number II](https://leetcode.com/problems/single-number-ii)|Medium|[Solution](src/single-number-ii)|
+|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|Medium|[Solution](src/binary-tree-preorder-traversal)|
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|Hard|[Solution](src/binary-tree-postorder-traversal)|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|Medium|[Solution](src/find-minimum-in-rotated-sorted-array)|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|Hard|[Solution](src/find-minimum-in-rotated-sorted-array-ii)|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)|Medium|[Solution](src/find-peak-element)|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|Easy|[Solution](src/two-sum-ii-input-array-is-sorted)|
+|169|[Majority Element](https://leetcode.com/problems/majority-element)|Easy|[Solution](src/majority-element)|
+|173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)|Medium|[Solution](src/binary-search-tree-iterator)|
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array)|Easy|[Solution](src/rotate-array)|
+|198|[House Robber](https://leetcode.com/problems/house-robber)|Easy|[Solution](src/house-robber)|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|Medium|[Solution](src/number-of-islands)|
+|202|[Happy Number](https://leetcode.com/problems/happy-number)|Easy|[Solution](src/happy-number)|
+|204|[Count Primes](https://leetcode.com/problems/count-primes)|Easy|[Solution](src/count-primes)|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|Easy|[Solution](src/reverse-linked-list)|
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|Medium|[Solution](src/kth-largest-element-in-an-array)|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|Easy|[Solution](src/contains-duplicate)|
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)|Easy|[Solution](src/contains-duplicate-ii)|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two)|Easy|[Solution](src/power-of-two)|
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|Easy|[Solution](src/lowest-common-ancestor-of-a-binary-search-tree)|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|Easy|[Solution](src/valid-anagram)|
+|268|[Missing Number](https://leetcode.com/problems/missing-number)|Easy|[Solution](src/missing-number)|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version)|Easy|[Solution](src/first-bad-version)|
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares)|Medium|[Solution](src/perfect-squares)|
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes)|Easy|[Solution](src/move-zeroes)|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|Medium|[Solution](src/find-the-duplicate-number)|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string)|Easy|[Solution](src/reverse-string)|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|Easy|[Solution](src/intersection-of-two-arrays)|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|Easy|[Solution](src/intersection-of-two-arrays-ii)|
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)|Easy|[Solution](src/valid-perfect-square)|
+|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)|Easy|[Solution](src/guess-number-higher-or-lower)|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)|Easy|[Solution](src/first-unique-character-in-a-string)|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference)|Easy|[Solution](src/find-the-difference)|
+|403|[Frog Jump](https://leetcode.com/problems/frog-jump)|Hard|[Solution](src/frog-jump)|
+|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves)|Easy|[Solution](src/sum-of-left-leaves)|
+|409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|Easy|[Solution](src/longest-palindrome)|
+|412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|Easy|[Solution](src/fizz-buzz)|
+|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board)|Medium|[Solution](src/battleships-in-a-board)|
+|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)|Easy|[Solution](src/find-all-numbers-disappeared-in-an-array)|
+|451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)|Medium|[Solution](src/sort-characters-by-frequency)|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance)|Easy|[Solution](src/hamming-distance)|
+|476|[Number Complement](https://leetcode.com/problems/number-complement)|Easy|[Solution](src/number-complement)|
+|482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting)|Easy|[Solution](src/license-key-formatting)|
+|520|[Detect Capital](https://leetcode.com/problems/detect-capital)|Easy|[Solution](src/detect-capital)|
+|621|[Task Scheduler](https://leetcode.com/problems/task-scheduler)|Medium|[Solution](src/task-scheduler)|
+|657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin)|Easy|[Solution](src/robot-return-to-origin)|
+|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)|Medium|[Solution](src/find-k-closest-elements)|
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|Easy|[Solution](src/valid-palindrome-ii)|
+|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)|Easy|[Solution](src/binary-number-with-alternating-bits)|
+|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island)|Medium|[Solution](src/max-area-of-island)|
+|733|[Flood Fill](https://leetcode.com/problems/flood-fill)|Easy|[Solution](src/flood-fill)|
+|745|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)|Easy|[Solution](src/find-smallest-letter-greater-than-target)|
+|768|[Partition Labels](https://leetcode.com/problems/partition-labels)|Medium|[Solution](src/partition-labels)|
+|782|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)|Easy|[Solution](src/jewels-and-stones)|
+|792|[Binary Search](https://leetcode.com/problems/binary-search)|Easy|[Solution](src/binary-search)|
+|837|[Most Common Word](https://leetcode.com/problems/most-common-word)|Easy|[Solution](src/most-common-word)|
+|860|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue)|Medium|[Solution](src/design-circular-queue)|
+|861|[Flipping an Image](https://leetcode.com/problems/flipping-an-image)|Easy|[Solution](src/flipping-an-image)|
+|871|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|Medium|[Solution](src/keys-and-rooms)|
+|874|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|Easy|[Solution](src/backspace-string-compare)|
+|917|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people)|Medium|[Solution](src/boats-to-save-people)|
+|932|[Monotonic Array](https://leetcode.com/problems/monotonic-array)|Easy|[Solution](src/monotonic-array)|
+|940|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)|Medium|[Solution](src/fruit-into-baskets)|
+|941|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|Easy|[Solution](src/sort-array-by-parity)|
+|965|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|Easy|[Solution](src/unique-email-addresses)|
+|1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|Easy|[Solution](src/fibonacci-number)|
+|1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|Medium|[Solution](src/k-closest-points-to-origin)|
+### Questions solved in C++ or Java or Python (don't support Go)
+
+| Question ID | Question | Difficulty | Solution |
+| :---------: | -------- | :--------: | :------: |
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version)|Easy|[Solution](src/first-bad-version)|
+|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)|Easy|[Solution](src/guess-number-higher-or-lower)|
