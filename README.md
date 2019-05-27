@@ -7,6 +7,7 @@ My LeetCode solutions written in Go.
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|Easy|[Solution](src/two-sum)|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|Medium|[Solution](src/add-two-numbers)|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|Hard|[Solution](src/median-of-two-sorted-arrays)|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|Easy|[Solution](src/reverse-integer)|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|Easy|[Solution](src/palindrome-number)|
