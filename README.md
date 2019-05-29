@@ -74,6 +74,7 @@ My LeetCode solutions written in Go.
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)|Easy|[Solution](src/contains-duplicate-ii)|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two)|Easy|[Solution](src/power-of-two)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|Easy|[Solution](src/lowest-common-ancestor-of-a-binary-search-tree)|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|Easy|[Solution](src/delete-node-in-a-linked-list)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|Easy|[Solution](src/valid-anagram)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number)|Easy|[Solution](src/missing-number)|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version)|Easy|[Solution](src/first-bad-version)|
