@@ -38,6 +38,7 @@ My LeetCode solutions written in Go.
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|Easy|[Solution](src/sqrtx)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|Easy|[Solution](src/climbing-stairs)|
 |79|[Word Search](https://leetcode.com/problems/word-search)|Medium|[Solution](src/word-search)|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|Easy|[Solution](src/merge-sorted-array)|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|Medium|[Solution](src/decode-ways)|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|Medium|[Solution](src/binary-tree-inorder-traversal)|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|Medium|[Solution](src/validate-binary-search-tree)|
