@@ -4,6 +4,10 @@
 
 My LeetCode solutions written in Go.
 
+| Solved | Easy | Medium | Hard |
+| :----: | :--: | :----: | :--: |
+|117|74|39|4|
+
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|Easy|[Solution](src/two-sum)|

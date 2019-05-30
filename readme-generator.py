@@ -9,7 +9,14 @@ head = """# leetcode-go
 [![Go Report](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
 
 My LeetCode solutions written in Go.
+"""
 
+stats_head = """
+| Solved | Easy | Medium | Hard |
+| :----: | :--: | :----: | :--: |
+"""
+
+questions_head = """
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
 """
@@ -30,7 +37,8 @@ if __name__ == "__main__":
         "https://leetcode.com/api/problems/algorithms/", cookies=cookies)
     parsed_json = json.loads(r.content)
 
-    table = ""
+    stats_table = "|{}|{}|{}|{}|\n".format(parsed_json["num_solved"], parsed_json["ac_easy"], parsed_json["ac_medium"], parsed_json["ac_hard"])
+    questions_table = ""
     for question in parsed_json["stat_status_pairs"]:
         if question["status"] == "ac":
             level = ["Easy", "Medium", "Hard"]
@@ -41,7 +49,7 @@ if __name__ == "__main__":
             leetcode_link = "https://leetcode.com/problems/"
             line = "|{}|[{}]({}{})|{}|[Solution](src/{})|\n".format(question_id, question__title,
                                                                     leetcode_link, question__title_slug, question_level, question__title_slug)
-            table = line + table
+            questions_table = line + questions_table
 
     with open('README.md', 'w') as writer:
-        writer.write(head + table + foot)
+        writer.write(head + stats_head + stats_table + questions_head + questions_table + foot)
