@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|117|74|39|4|
+|119|74|40|5|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -23,6 +23,8 @@ My LeetCode solutions written in Go.
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|Medium|[Solution](src/letter-combinations-of-a-phone-number)|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|Easy|[Solution](src/valid-parentheses)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|Easy|[Solution](src/merge-two-sorted-lists)|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|Medium|[Solution](src/generate-parentheses)|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|Hard|[Solution](src/merge-k-sorted-lists)|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|Medium|[Solution](src/swap-nodes-in-pairs)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|Easy|[Solution](src/remove-duplicates-from-sorted-array)|
 |27|[Remove Element](https://leetcode.com/problems/remove-element)|Easy|[Solution](src/remove-element)|
