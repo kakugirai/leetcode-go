@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|120|74|41|5|
+|121|75|41|5|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -81,6 +81,7 @@ My LeetCode solutions written in Go.
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|Easy|[Solution](src/contains-duplicate)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)|Easy|[Solution](src/contains-duplicate-ii)|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two)|Easy|[Solution](src/power-of-two)|
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)|Easy|[Solution](src/implement-queue-using-stacks)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|Easy|[Solution](src/lowest-common-ancestor-of-a-binary-search-tree)|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|Easy|[Solution](src/delete-node-in-a-linked-list)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|Easy|[Solution](src/valid-anagram)|
