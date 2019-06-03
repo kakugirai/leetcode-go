@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|121|75|41|5|
+|122|76|41|5|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -90,6 +90,7 @@ My LeetCode solutions written in Go.
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares)|Medium|[Solution](src/perfect-squares)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes)|Easy|[Solution](src/move-zeroes)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|Medium|[Solution](src/find-the-duplicate-number)|
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|Easy|[Solution](src/range-sum-query-immutable)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|Easy|[Solution](src/reverse-string)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|Easy|[Solution](src/intersection-of-two-arrays)|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|Easy|[Solution](src/intersection-of-two-arrays-ii)|
