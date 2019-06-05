@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|122|76|41|5|
+|123|76|42|5|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -65,6 +65,7 @@ My LeetCode solutions written in Go.
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii)|Medium|[Solution](src/single-number-ii)|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|Medium|[Solution](src/binary-tree-preorder-traversal)|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|Hard|[Solution](src/binary-tree-postorder-traversal)|
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache)|Medium|[Solution](src/lru-cache)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|Medium|[Solution](src/find-minimum-in-rotated-sorted-array)|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|Hard|[Solution](src/find-minimum-in-rotated-sorted-array-ii)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)|Medium|[Solution](src/find-peak-element)|
