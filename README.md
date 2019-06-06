@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|123|76|42|5|
+|124|76|43|5|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -35,6 +35,7 @@ My LeetCode solutions written in Go.
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|Medium|[Solution](src/valid-sudoku)|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say)|Easy|[Solution](src/count-and-say)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|Medium|[Solution](src/combination-sum-ii)|
+|46|[Permutations](https://leetcode.com/problems/permutations)|Medium|[Solution](src/permutations)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|Medium|[Solution](src/group-anagrams)|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|Medium|[Solution](src/powx-n)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|Easy|[Solution](src/maximum-subarray)|
