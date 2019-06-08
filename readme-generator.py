@@ -21,11 +21,12 @@ questions_head = """
 | :---------: | -------- | :--------: | :------: |
 """
 
-foot = """### Questions solved in C++ or Java or Python (don't support Go)
+foot = """### Questions solved in C++ or Java or Python
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|Hard|[Solution](src/merge-k-sorted-lists)|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|Medium|[Solution](src/search-a-2d-matrix)|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version)|Easy|[Solution](src/first-bad-version)|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)|Easy|[Solution](src/guess-number-higher-or-lower)|
 """

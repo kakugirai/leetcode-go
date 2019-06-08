@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|124|76|43|5|
+|125|76|44|5|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -44,6 +44,7 @@ My LeetCode solutions written in Go.
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|Easy|[Solution](src/add-binary)|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|Easy|[Solution](src/sqrtx)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|Easy|[Solution](src/climbing-stairs)|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|Medium|[Solution](src/search-a-2d-matrix)|
 |78|[Subsets](https://leetcode.com/problems/subsets)|Medium|[Solution](src/subsets)|
 |79|[Word Search](https://leetcode.com/problems/word-search)|Medium|[Solution](src/word-search)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|Easy|[Solution](src/merge-sorted-array)|
@@ -134,10 +135,11 @@ My LeetCode solutions written in Go.
 |965|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|Easy|[Solution](src/unique-email-addresses)|
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|Easy|[Solution](src/fibonacci-number)|
 |1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|Medium|[Solution](src/k-closest-points-to-origin)|
-### Questions solved in C++ or Java or Python (don't support Go)
+### Questions solved in C++ or Java or Python
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|Hard|[Solution](src/merge-k-sorted-lists)|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|Medium|[Solution](src/search-a-2d-matrix)|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version)|Easy|[Solution](src/first-bad-version)|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)|Easy|[Solution](src/guess-number-higher-or-lower)|
