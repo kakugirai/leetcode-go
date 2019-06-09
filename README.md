@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|126|76|44|6|
+|127|76|44|7|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -39,6 +39,7 @@ My LeetCode solutions written in Go.
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|Medium|[Solution](src/group-anagrams)|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|Medium|[Solution](src/powx-n)|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|Hard|[Solution](src/n-queens)|
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii)|Hard|[Solution](src/n-queens-ii)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|Easy|[Solution](src/maximum-subarray)|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths)|Medium|[Solution](src/unique-paths)|
 |66|[Plus One](https://leetcode.com/problems/plus-one)|Easy|[Solution](src/plus-one)|
