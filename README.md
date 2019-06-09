@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|127|76|44|7|
+|128|76|45|7|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -107,6 +107,7 @@ My LeetCode solutions written in Go.
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves)|Easy|[Solution](src/sum-of-left-leaves)|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|Easy|[Solution](src/longest-palindrome)|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|Easy|[Solution](src/fizz-buzz)|
+|416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)|Medium|[Solution](src/partition-equal-subset-sum)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board)|Medium|[Solution](src/battleships-in-a-board)|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)|Easy|[Solution](src/find-all-numbers-disappeared-in-an-array)|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)|Medium|[Solution](src/sort-characters-by-frequency)|
