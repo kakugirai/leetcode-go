@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|128|76|45|7|
+|129|77|45|7|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -90,6 +90,7 @@ My LeetCode solutions written in Go.
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|Easy|[Solution](src/lowest-common-ancestor-of-a-binary-search-tree)|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|Easy|[Solution](src/delete-node-in-a-linked-list)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|Easy|[Solution](src/valid-anagram)|
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number)|Easy|[Solution](src/ugly-number)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number)|Easy|[Solution](src/missing-number)|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version)|Easy|[Solution](src/first-bad-version)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares)|Medium|[Solution](src/perfect-squares)|

@@ -2,39 +2,27 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func canPartition(nums []int) bool {
-	total := 0
-	for i := range nums {
-		total += nums[i]
+	sum := 0
+	for _, v := range nums {
+		sum += v
 	}
-
-	if total%2 != 0 {
+	if sum&1 == 1 {
 		return false
 	}
 
-	m := make(map[string]bool)
-	return checkPartition(nums, 0, 0, total, &m)
-}
+	half := sum / 2
+	dp := make([]bool, half+1)
+	dp[0] = true
 
-func checkPartition(nums []int, index int, sum int, total int, m *map[string]bool) bool {
-	current := strconv.Itoa(index) + strconv.Itoa(sum)
-
-	if _, ok := (*m)[current]; ok {
-		return (*m)[current]
+	for _, v := range nums {
+		for j := half; j >= v; j-- {
+			dp[j] = dp[j] || dp[j-v]
+		}
 	}
-	if sum*2 == total {
-		return true
-	}
-	if sum > total/2 || index >= len(nums) {
-		return false
-	}
-
-	found := checkPartition(nums, index+1, sum, total, m) || checkPartition(nums, index+1, sum+nums[index], total, m)
-	(*m)[current] = found
-	return found
+	return dp[half]
 }
 
 func main() {
