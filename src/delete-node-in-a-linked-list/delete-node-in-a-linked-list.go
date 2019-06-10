@@ -1,11 +1,11 @@
-package delete_node_in_a_linked_list
+package main
 
 import "fmt"
 
 //ListNode is a singly-linked list.
 type ListNode struct {
-    Val int
-    Next *ListNode
+	Val  int
+	Next *ListNode
 }
 
 func deleteNode(node *ListNode) {
@@ -14,7 +14,7 @@ func deleteNode(node *ListNode) {
 }
 
 func main() {
-    node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
-    deleteNode(node)
-    fmt.Println(node)
+	node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
+	deleteNode(node)
+	fmt.Println(node)
 }

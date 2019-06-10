@@ -28,12 +28,13 @@ func (stk *stack) Peek() int {
 	return (*stk)[len(*stk)-1]
 }
 
+// MyQueue contains two stacks
 type MyQueue struct {
 	PushStack *stack
 	PopStack  *stack
 }
 
-// Initialize your data structure here.
+// Constructor initializes MyQueue
 func Constructor() MyQueue {
 	return MyQueue{
 		PushStack: new(stack),
@@ -46,31 +47,29 @@ func (q *MyQueue) Push(x int) {
 	q.PushStack.Push(x)
 }
 
-// Removes the element from in front of queue and returns that element.
+// Pop the element from in front of queue and returns that element.
 func (q *MyQueue) Pop() int {
 	if q.PopStack.Empty() {
 		for q.PushStack.Len() > 0 {
 			q.PopStack.Push(q.PushStack.Pop())
 		}
 		return q.PopStack.Pop()
-	} else {
-		return q.PopStack.Pop()
 	}
+	return q.PopStack.Pop()
 }
 
-// Get the front element.
+// Peek returns the front element.
 func (q *MyQueue) Peek() int {
 	if q.PopStack.Empty() {
 		for q.PushStack.Len() > 0 {
 			q.PopStack.Push(q.PushStack.Pop())
 		}
 		return q.PopStack.Peek()
-	} else {
-		return q.PopStack.Peek()
 	}
+	return q.PopStack.Peek()
 }
 
-// Returns whether the queue is empty.
+// Empty returns whether the queue is empty.
 func (q *MyQueue) Empty() bool {
 	return q.PopStack.Empty() && q.PushStack.Empty()
 }
