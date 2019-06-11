@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// LRUCache contains a map and a doubly linked list
 type LRUCache struct {
 	cap int                   // capacity
 	l   *list.List            // doubly linked list
