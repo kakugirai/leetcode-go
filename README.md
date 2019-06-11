@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|129|77|45|7|
+|131|78|46|7|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -98,6 +98,7 @@ My LeetCode solutions written in Go.
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|Medium|[Solution](src/find-the-duplicate-number)|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|Easy|[Solution](src/range-sum-query-immutable)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|Easy|[Solution](src/reverse-string)|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|Medium|[Solution](src/top-k-frequent-elements)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|Easy|[Solution](src/intersection-of-two-arrays)|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|Easy|[Solution](src/intersection-of-two-arrays-ii)|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)|Easy|[Solution](src/valid-perfect-square)|
@@ -139,6 +140,7 @@ My LeetCode solutions written in Go.
 |965|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|Easy|[Solution](src/unique-email-addresses)|
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|Easy|[Solution](src/fibonacci-number)|
 |1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|Medium|[Solution](src/k-closest-points-to-origin)|
+|1078|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)|Easy|[Solution](src/remove-outermost-parentheses)|
 ### Questions solved in C++ or Java or Python
 
 | Question ID | Question | Difficulty | Solution |
