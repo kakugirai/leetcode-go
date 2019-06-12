@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|133|79|46|8|
+|134|79|46|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -47,6 +47,7 @@ My LeetCode solutions written in Go.
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|Easy|[Solution](src/add-binary)|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|Easy|[Solution](src/sqrtx)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|Easy|[Solution](src/climbing-stairs)|
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance)|Hard|[Solution](src/edit-distance)|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|Medium|[Solution](src/search-a-2d-matrix)|
 |78|[Subsets](https://leetcode.com/problems/subsets)|Medium|[Solution](src/subsets)|
 |79|[Word Search](https://leetcode.com/problems/word-search)|Medium|[Solution](src/word-search)|
