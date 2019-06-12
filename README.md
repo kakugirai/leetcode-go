@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|134|79|46|9|
+|135|79|47|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -20,6 +20,7 @@ My LeetCode solutions written in Go.
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|Medium|[Solution](src/container-with-most-water)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|Easy|[Solution](src/roman-to-integer)|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|Easy|[Solution](src/longest-common-prefix)|
+|15|[3Sum](https://leetcode.com/problems/3sum)|Medium|[Solution](src/3sum)|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|Medium|[Solution](src/letter-combinations-of-a-phone-number)|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|Easy|[Solution](src/valid-parentheses)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|Easy|[Solution](src/merge-two-sorted-lists)|
