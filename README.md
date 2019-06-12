@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|132|79|46|7|
+|133|79|46|8|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -33,6 +33,7 @@ My LeetCode solutions written in Go.
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|Medium|[Solution](src/find-first-and-last-position-of-element-in-sorted-array)|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|Easy|[Solution](src/search-insert-position)|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|Medium|[Solution](src/valid-sudoku)|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|Hard|[Solution](src/sudoku-solver)|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say)|Easy|[Solution](src/count-and-say)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|Medium|[Solution](src/combination-sum-ii)|
 |46|[Permutations](https://leetcode.com/problems/permutations)|Medium|[Solution](src/permutations)|
