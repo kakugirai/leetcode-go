@@ -6,7 +6,7 @@ My LeetCode solutions written in Go.
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|131|78|46|7|
+|132|79|46|7|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -128,6 +128,7 @@ My LeetCode solutions written in Go.
 |768|[Partition Labels](https://leetcode.com/problems/partition-labels)|Medium|[Solution](src/partition-labels)|
 |782|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)|Easy|[Solution](src/jewels-and-stones)|
 |792|[Binary Search](https://leetcode.com/problems/binary-search)|Easy|[Solution](src/binary-search)|
+|822|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)|Easy|[Solution](src/unique-morse-code-words)|
 |837|[Most Common Word](https://leetcode.com/problems/most-common-word)|Easy|[Solution](src/most-common-word)|
 |860|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue)|Medium|[Solution](src/design-circular-queue)|
 |861|[Flipping an Image](https://leetcode.com/problems/flipping-an-image)|Easy|[Solution](src/flipping-an-image)|
