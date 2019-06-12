@@ -9,8 +9,8 @@ func solve(board *[][]byte) bool {
 		for j := range (*board)[0] {
 			if (*board)[i][j] == '.' {
 				for k := 1; k < 10; k++ {
-					if isValid(board, i, j, byte(k+48)) {
-						(*board)[i][j] = byte(k + 48)
+					if isValid(board, i, j, byte(k+'0')) {
+						(*board)[i][j] = byte(k + '0')
 						if solve(board) {
 							return true
 						} else {
