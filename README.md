@@ -1,12 +1,12 @@
 # leetcode-go
 
-[![Go Report](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)
+[![Go Report](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
 
 My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|135|79|47|9|
+|136|79|48|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -22,6 +22,7 @@ My LeetCode solutions written in Go (mainly).
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|Easy|[Go](src/longest-common-prefix/longest-common-prefix.go)|
 |15|[3Sum](https://leetcode.com/problems/3sum)|Medium|[Go](src/3sum/3sum.go)|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|Medium|[Go](src/letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number.go)|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|Medium|[Python](src/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.py), [Go](src/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go)|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|Easy|[Go](src/valid-parentheses/valid-parentheses.go)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|Easy|[Go](src/merge-two-sorted-lists/merge-two-sorted-lists.go)|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|Medium|[Go](src/generate-parentheses/generate-parentheses.go)|
