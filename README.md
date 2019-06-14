@@ -6,7 +6,7 @@ My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|136|79|48|9|
+|137|80|48|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -121,6 +121,7 @@ My LeetCode solutions written in Go (mainly).
 |476|[Number Complement](https://leetcode.com/problems/number-complement)|Easy|[Go](src/number-complement/number-complement.go)|
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting)|Easy|[Go](src/license-key-formatting/license-key-formatting.go)|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital)|Easy|[Go](src/detect-capital/detect-capital.go)|
+|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree)|Easy|[Go](src/convert-bst-to-greater-tree/convert-bst-to-greater-tree.go)|
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler)|Medium|[Go](src/task-scheduler/task-scheduler.go)|
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin)|Easy|[Go](src/robot-return-to-origin/robot-return-to-origin.go)|
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)|Medium|[Go](src/find-k-closest-elements/find-k-closest-elements.go)|
