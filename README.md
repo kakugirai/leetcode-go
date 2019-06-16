@@ -6,7 +6,7 @@ My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|138|80|49|9|
+|139|80|50|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -63,6 +63,7 @@ My LeetCode solutions written in Go (mainly).
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|Medium|[Go](src/binary-tree-level-order-traversal/binary-tree-level-order-traversal.go)|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|Easy|[Go](src/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go)|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|Easy|[Go](src/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.go)|
+|109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)|Medium|[Go](src/convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.go)|
 |112|[Path Sum](https://leetcode.com/problems/path-sum)|Easy|[Go](src/path-sum/path-sum.go)|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii)|Medium|[Go](src/path-sum-ii/path-sum-ii.go)|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|Easy|[Go](src/pascals-triangle/pascals-triangle.go)|
