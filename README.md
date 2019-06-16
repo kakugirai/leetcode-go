@@ -6,7 +6,7 @@ My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|139|80|50|9|
+|140|80|51|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -142,6 +142,7 @@ My LeetCode solutions written in Go (mainly).
 |871|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|Medium|[Go](src/keys-and-rooms/keys-and-rooms.go)|
 |874|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|Easy|[Go](src/backspace-string-compare/backspace-string-compare.go)|
 |917|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people)|Medium|[Go](src/boats-to-save-people/boats-to-save-people.go)|
+|926|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern)|Medium|[Go](src/find-and-replace-pattern/find-and-replace-pattern.go)|
 |932|[Monotonic Array](https://leetcode.com/problems/monotonic-array)|Easy|[Go](src/monotonic-array/monotonic-array.go)|
 |940|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)|Medium|[Go](src/fruit-into-baskets/fruit-into-baskets.go)|
 |941|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|Easy|[Go](src/sort-array-by-parity/sort-array-by-parity.go)|
