@@ -6,7 +6,7 @@ My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|140|80|51|9|
+|141|80|52|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -32,6 +32,7 @@ My LeetCode solutions written in Go (mainly).
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|Easy|[Go](src/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go)|
 |27|[Remove Element](https://leetcode.com/problems/remove-element)|Easy|[Go](src/remove-element/remove-element.go)|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|Easy|[Go](src/implement-strstr/implement-strstr.go)|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation)|Medium|[Go](src/next-permutation/next-permutation.go)|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|Medium|[Go](src/search-in-rotated-sorted-array/search-in-rotated-sorted-array.go)|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|Medium|[Go](src/find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.go)|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|Easy|[Go](src/search-insert-position/search-insert-position.go)|
