@@ -1,6 +1,6 @@
 # leetcode-go
 
-[![Go Report](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
 
 My LeetCode solutions written in Go (mainly).
 
