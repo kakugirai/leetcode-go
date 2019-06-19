@@ -6,7 +6,7 @@ My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|141|80|52|9|
+|142|80|53|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -39,6 +39,7 @@ My LeetCode solutions written in Go (mainly).
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|Medium|[Go](src/valid-sudoku/valid-sudoku.go)|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|Hard|[Go](src/sudoku-solver/sudoku-solver.go)|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say)|Easy|[Go](src/count-and-say/count-and-say.go)|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum)|Medium|[Go](src/combination-sum/combination-sum.go)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|Medium|[Go](src/combination-sum-ii/combination-sum-ii.go)|
 |46|[Permutations](https://leetcode.com/problems/permutations)|Medium|[Go](src/permutations/permutations.go)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|Medium|[Go](src/group-anagrams/group-anagrams.go)|
