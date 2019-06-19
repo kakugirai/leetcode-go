@@ -4,7 +4,7 @@ import "fmt"
 
 //https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/154836/The-INF-and-INF-method-but-with-a-better-explanation-for-dummies-like-me
 func search(nums []int, target int) int {
-	if len(nums) == 0 || nums == nil {
+	if len(nums) == 0 {
 		return -1
 	}
 	left := 0
@@ -12,7 +12,7 @@ func search(nums []int, target int) int {
 
 	for left <= right {
 		mid := (left + right) >> 1
-		comparator := nums[mid]
+		var comparator int
 		if (target < nums[0]) && (nums[mid] < nums[0]) || (target >= nums[0]) && (nums[mid] >= nums[0]) {
 			comparator = nums[mid]
 		} else {
