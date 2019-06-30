@@ -6,7 +6,7 @@ My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|142|80|53|9|
+|143|80|54|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -86,6 +86,7 @@ My LeetCode solutions written in Go (mainly).
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)|Medium|[Go](src/binary-search-tree-iterator/binary-search-tree-iterator.go)|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array)|Easy|[Go](src/rotate-array/rotate-array.go)|
 |198|[House Robber](https://leetcode.com/problems/house-robber)|Easy|[Go](src/house-robber/house-robber.go)|
+|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|Medium|[Go](src/binary-tree-right-side-view/binary-tree-right-side-view.go)|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|Medium|[Go](src/number-of-islands/number-of-islands.go)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number)|Easy|[Go](src/happy-number/happy-number.go)|
 |204|[Count Primes](https://leetcode.com/problems/count-primes)|Easy|[Go](src/count-primes/count-primes.go)|
