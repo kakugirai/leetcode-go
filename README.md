@@ -2,11 +2,34 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
 
-My LeetCode solutions written in Go (mainly).
+My LeetCode solutions primarily written in Go. Don't expect too much on those questions solved in other random languages.
+
+## Wanna start your LeetCode journey?
+
+Feel free to copy the cookies from your browser, write them into a `cookies.json` file,
+
+```
+{
+    "__cfduid": "",
+    "_ga": "",
+    "LEETCODE_SESSION": "",
+    "_gid": "",
+    "__stripe_mid": "",
+    "c_a_u": ""
+}
+```
+
+and copy the `readme-generator.py` to your directory. Here you ≡Go!
+
+## My progress
+
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|145|80|56|9|
+|146|81|56|9|
+
+
+## Solutions
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -96,6 +119,7 @@ My LeetCode solutions written in Go (mainly).
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|Medium|[Go](src/kth-largest-element-in-an-array/solution.go)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|Easy|[Go](src/contains-duplicate/solution.go)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)|Easy|[Go](src/contains-duplicate-ii/solution.go)|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|Easy|[Go](src/invert-binary-tree/solution.go)|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two)|Easy|[Go](src/power-of-two/solution.go)|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)|Easy|[Go](src/implement-queue-using-stacks/solution.go)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|Easy|[Go](src/lowest-common-ancestor-of-a-binary-search-tree/solution.go)|

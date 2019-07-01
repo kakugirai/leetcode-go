@@ -9,7 +9,27 @@ head = """# leetcode-go
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
 
-My LeetCode solutions written in Go (mainly).
+My LeetCode solutions primarily written in Go. Don't expect too much on those questions solved in other random languages.
+
+## Wanna start your LeetCode journey?
+
+Feel free to copy the cookies from your browser, write them into a `cookies.json` file,
+
+```
+{
+    "__cfduid": "",
+    "_ga": "",
+    "LEETCODE_SESSION": "",
+    "_gid": "",
+    "__stripe_mid": "",
+    "c_a_u": ""
+}
+```
+
+and copy the `readme-generator.py` to your directory. Here you ≡Go!
+
+## My progress
+
 """
 
 stats_head = """
@@ -18,6 +38,9 @@ stats_head = """
 """
 
 questions_head = """
+
+## Solutions
+
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
 """
