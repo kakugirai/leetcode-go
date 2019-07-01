@@ -47,17 +47,17 @@ if __name__ == "__main__":
                 lang = answer.split('.')[-1]
                 answer_path = ""
                 if lang == 'go':
-                    answer_path = "[Go](src/{}/{})".format(
-                        question__title_slug, answer)
+                    answer_path = "[Go](src/{}/solution.go)".format(
+                        question__title_slug)
                 if lang == 'java':
-                    answer_path = "[Java](src/{}/{})".format(
-                        question__title_slug, answer)
+                    answer_path = "[Java](src/{}/solution.java)".format(
+                        question__title_slug)
                 if lang == 'py':
-                    answer_path = "[Python](src/{}/{})".format(
-                        question__title_slug, answer)
+                    answer_path = "[Python](src/{}/solution.py)".format(
+                        question__title_slug)
                 if lang == 'cpp':
-                    answer_path = "[C++](src/{}/{})".format(
-                        question__title_slug, answer)
+                    answer_path = "[C++](src/{}/solution.cpp)".format(
+                        question__title_slug)
                 answers_path_arr.append(answer_path)
             answers_path = ", ".join(answers_path_arr)
 
