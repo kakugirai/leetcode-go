@@ -6,7 +6,7 @@ My LeetCode solutions written in Go (mainly).
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|143|80|54|9|
+|144|80|55|9|
 
 | Question ID | Question | Difficulty | Solution |
 | :---------: | -------- | :--------: | :------: |
@@ -68,6 +68,7 @@ My LeetCode solutions written in Go (mainly).
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)|Medium|[Go](src/convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.go)|
 |112|[Path Sum](https://leetcode.com/problems/path-sum)|Easy|[Go](src/path-sum/path-sum.go)|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii)|Medium|[Go](src/path-sum-ii/path-sum-ii.go)|
+|114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)|Medium|[Go](src/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.go)|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|Easy|[Go](src/pascals-triangle/pascals-triangle.go)|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|Easy|[Go](src/pascals-triangle-ii/pascals-triangle-ii.go)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|Easy|[Go](src/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.go)|
