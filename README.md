@@ -26,7 +26,7 @@ and copy the `readme-generator.py` to your directory. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|147|81|57|9|
+|148|81|58|9|
 
 
 ## Solutions
@@ -65,6 +65,7 @@ and copy the `readme-generator.py` to your directory. Here you ≡Go!
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|Medium|[Go](src/combination-sum/solution.go)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|Medium|[Go](src/combination-sum-ii/solution.go)|
 |46|[Permutations](https://leetcode.com/problems/permutations)|Medium|[Go](src/permutations/solution.go)|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image)|Medium|[Go](src/rotate-image/solution.go)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|Medium|[Go](src/group-anagrams/solution.go)|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|Medium|[Go](src/powx-n/solution.go)|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|Hard|[Go](src/n-queens/solution.go)|
