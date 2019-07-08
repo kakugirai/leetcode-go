@@ -2,20 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	var l1, l2 *ListNode
-	*l1 = struct {
-		Val  int
-		Next *ListNode
-	}{Val: 1, Next: nil}
-
-	*l2 = struct {
-		Val  int
-		Next *ListNode
-	}{Val: 2, Next: nil}
-	fmt.Println(*mergeTwoLists(l1, l2))
-}
-
 // ListNode is a singly-linked list.
 type ListNode struct {
 	Val  int
@@ -64,4 +50,10 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 
 	return head
+}
+
+func main() {
+	l1 := &ListNode{1, nil}
+	l2 := &ListNode{2, nil}
+	fmt.Println(mergeTwoLists(l1, l2))
 }
