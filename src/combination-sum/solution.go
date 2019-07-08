@@ -32,5 +32,5 @@ func dfs(candidates []int, idx int, target int, curr []int, result *[][]int) {
 
 func main() {
 	candidates := []int{2, 3, 5}
-	fmt.Println(combinationSum(candidates, 8))
+	fmt.Printf("%#v", combinationSum(candidates, 8))
 }

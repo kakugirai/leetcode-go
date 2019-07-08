@@ -38,5 +38,5 @@ func findCombination(candidates []int, index int, target int, current []int, res
 func main() {
 	candidates := []int{10, 1, 2, 7, 6, 1, 5}
 	target := 8
-	fmt.Println(combinationSum2(candidates, target))
+	fmt.Printf("%#v", combinationSum2(candidates, target))
 }

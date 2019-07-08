@@ -43,5 +43,5 @@ func main() {
 				&TreeNode{8, nil, nil},
 				&TreeNode{9, nil, nil}},
 			nil}}
-	fmt.Println(rightSideView(tree))
+	fmt.Printf("%#v", rightSideView(tree))
 }

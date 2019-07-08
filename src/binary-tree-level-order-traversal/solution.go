@@ -52,5 +52,5 @@ func main() {
 				&TreeNode{8, nil, nil},
 				&TreeNode{9, nil, nil}},
 			nil}}
-	fmt.Println(levelOrder(tree))
+	fmt.Printf("%#v", levelOrder(tree))
 }

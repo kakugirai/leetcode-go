@@ -59,5 +59,5 @@ func main() {
 				&TreeNode{8, nil, nil},
 				&TreeNode{9, nil, nil}},
 			nil}}
-	fmt.Println(inorderTraversal(tree))
+	fmt.Printf("%#v", inorderTraversal(tree))
 }
