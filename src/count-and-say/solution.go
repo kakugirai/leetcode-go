@@ -6,11 +6,6 @@ import (
 	"strings"
 )
 
-func main() {
-	n := 5
-	fmt.Println(countAndSay(n))
-}
-
 func countAndSay(n int) string {
 	if n == 1 {
 		return "1"
@@ -33,4 +28,9 @@ func countAndSay(n int) string {
 	builder.WriteString(strconv.Itoa(counter))
 	builder.WriteByte(c)
 	return builder.String()
+}
+
+func main() {
+	n := 5
+	fmt.Println(countAndSay(n))
 }

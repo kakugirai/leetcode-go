@@ -32,5 +32,5 @@ func searchRange(nums []int, target int) []int {
 
 func main() {
 	nums := []int{5, 7, 7, 8, 8, 10}
-	fmt.Println(searchRange(nums, 7))
+	fmt.Printf("%#v", searchRange(nums, 7))
 }

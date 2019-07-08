@@ -50,6 +50,6 @@ func getMin(arr []int) int {
 
 func main() {
 	word1 := "horse"
-	word2 := "ros"
+	word2 := "rose"
 	fmt.Println(minDistance(word1, word2))
 }

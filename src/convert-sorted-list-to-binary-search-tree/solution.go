@@ -47,5 +47,5 @@ func findMid(head *ListNode) *ListNode {
 
 func main() {
 	head := &ListNode{-10, &ListNode{-3, &ListNode{0, &ListNode{5, &ListNode{9, nil}}}}}
-	fmt.Println(sortedListToBST(head))
+	fmt.Println(sortedListToBST(head).Right)
 }

@@ -31,5 +31,5 @@ func constructBSTRecursive(nums []int, left int, right int) *TreeNode {
 func main() {
 	nums := []int{-10, -3, 0, 5, 9}
 	t := sortedArrayToBST(nums)
-	fmt.Println(t.Left.Right)
+	fmt.Println(t.Val)
 }

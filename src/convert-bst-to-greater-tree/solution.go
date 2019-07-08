@@ -26,16 +26,6 @@ func dfs(root *TreeNode, sum *int) {
 }
 
 func main() {
-	tree := &TreeNode{1,
-		&TreeNode{2,
-			&TreeNode{4,
-				&TreeNode{7, nil, nil},
-				nil},
-			&TreeNode{5, nil, nil}},
-		&TreeNode{3,
-			&TreeNode{6,
-				&TreeNode{8, nil, nil},
-				&TreeNode{9, nil, nil}},
-			nil}}
+	tree := &TreeNode{5, &TreeNode{2, nil, nil}, &TreeNode{13, nil, nil}}
 	fmt.Println(convertBST(tree))
 }

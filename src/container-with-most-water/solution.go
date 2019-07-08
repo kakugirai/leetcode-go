@@ -27,6 +27,6 @@ func maxArea(height []int) int {
 }
 
 func main() {
-	height := []int{1, 1}
+	height := []int{1, 3, 4, 2, 5, 1}
 	fmt.Println(maxArea(height))
 }

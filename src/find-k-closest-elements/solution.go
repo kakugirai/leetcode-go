@@ -18,5 +18,5 @@ func findClosestElements(arr []int, k int, x int) []int {
 
 func main() {
 	arr := []int{1, 2, 3, 4, 5}
-	fmt.Println(findClosestElements(arr, 4, 3))
+	fmt.Printf("%#v", findClosestElements(arr, 4, 3))
 }

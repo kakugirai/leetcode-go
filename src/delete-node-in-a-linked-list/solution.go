@@ -16,5 +16,7 @@ func deleteNode(node *ListNode) {
 func main() {
 	node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
 	deleteNode(node)
-	fmt.Println(node)
+	for i := node; i != nil; i = i.Next {
+		fmt.Println(i.Val)
+	}
 }

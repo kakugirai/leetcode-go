@@ -37,5 +37,5 @@ func match(word string, pattern string) bool {
 func main() {
 	words := []string{"abc", "deq", "mee", "aqq", "dkd", "ccc"}
 	pattern := "abb"
-	fmt.Println(findAndReplacePattern(words, pattern))
+	fmt.Printf("%#v", findAndReplacePattern(words, pattern))
 }
