@@ -12,10 +12,9 @@ type TreeNode struct {
 func invertTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return root
-	} else {
-		root.Left, root.Right = invertTree(root.Right), invertTree(root.Left)
-		return root
 	}
+	root.Left, root.Right = invertTree(root.Right), invertTree(root.Left)
+	return root
 }
 
 func main() {

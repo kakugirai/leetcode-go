@@ -94,5 +94,7 @@ func main() {
 				&TreeNode{9, nil, nil}},
 			nil}}
 	obj := Constructor(tree)
+	fmt.Println(obj.current)
+	fmt.Println(obj.result)
 	fmt.Println(obj.Next())
 }
