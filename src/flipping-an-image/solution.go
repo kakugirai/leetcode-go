@@ -29,5 +29,5 @@ func main() {
 		{1, 0, 1, 0},
 	}
 
-	fmt.Println(flipAndInvertImage(A))
+	fmt.Printf("%#v", flipAndInvertImage(A))
 }

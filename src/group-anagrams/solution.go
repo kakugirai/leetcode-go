@@ -31,5 +31,5 @@ func main() {
 	strs := []string{
 		"eat", "tea", "tan", "ate", "nat", "bat",
 	}
-	fmt.Println(groupAnagrams(strs))
+	fmt.Printf("%#v", groupAnagrams(strs))
 }

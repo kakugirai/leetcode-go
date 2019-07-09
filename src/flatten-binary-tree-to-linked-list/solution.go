@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //TreeNode is a binary tree node.
 type TreeNode struct {
 	Val   int
@@ -41,4 +43,8 @@ func main() {
 				&TreeNode{9, nil, nil}},
 			nil}}
 	flatten(tree)
+
+	for node := tree; node != nil; node = node.Right {
+		fmt.Println(node.Val)
+	}
 }

@@ -25,7 +25,7 @@ func main() {
 	image := [][]int{
 		{0, 0, 0},
 		{0, 0, 0},
-		//{0, 0, 0},
+		{0, 0, 0},
 	}
-	fmt.Println(floodFill(image, 0, 0, 2))
+	fmt.Printf("%#v", floodFill(image, 0, 0, 2))
 }

@@ -18,5 +18,5 @@ func findTheDifference(s string, t string) byte {
 }
 
 func main() {
-	fmt.Println(findTheDifference("abcd", "abcde"))
+	fmt.Printf("%q", findTheDifference("abcd", "abcde"))
 }

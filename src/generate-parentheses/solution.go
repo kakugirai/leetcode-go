@@ -27,5 +27,5 @@ func doGenerateParenthesis(left int, right int, idx int, curr []byte, result *[]
 }
 
 func main() {
-	fmt.Println(generateParenthesis(2))
+	fmt.Printf("%#v", generateParenthesis(2))
 }

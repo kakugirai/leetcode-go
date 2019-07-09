@@ -22,5 +22,5 @@ func fizzBuzz(n int) []string {
 }
 
 func main() {
-	fmt.Println(fizzBuzz(15))
+	fmt.Printf("%#v", fizzBuzz(15))
 }
