@@ -76,5 +76,5 @@ func main() {
 		{5, -1},
 		{-2, 4},
 	}
-	fmt.Println(kClosest(points, 2))
+	fmt.Printf("%#v", kClosest(points, 2))
 }

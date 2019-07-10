@@ -2,12 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	nums1 := []int{1, 2, 2, 1}
-	nums2 := []int{2, 2}
-	fmt.Println(intersect(nums1, nums2))
-}
-
 func intersect(nums1 []int, nums2 []int) []int {
 	m := make(map[int]int)
 	var res []int
@@ -21,4 +15,10 @@ func intersect(nums1 []int, nums2 []int) []int {
 		}
 	}
 	return res
+}
+
+func main() {
+	nums1 := []int{1, 2, 2, 1}
+	nums2 := []int{2, 2}
+	fmt.Printf("%#v", intersect(nums1, nums2))
 }

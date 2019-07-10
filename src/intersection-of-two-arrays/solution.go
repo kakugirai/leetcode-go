@@ -22,5 +22,5 @@ func intersection(nums1 []int, nums2 []int) []int {
 }
 
 func main() {
-	fmt.Println(intersection([]int{4, 5, 9}, []int{9, 4, 9, 8, 4}))
+	fmt.Printf("%#v", intersection([]int{4, 5, 9}, []int{9, 4, 9, 8, 4}))
 }

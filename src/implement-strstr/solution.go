@@ -2,11 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	haystack := "hello"
-	needle := "l"
-	fmt.Println(strStr(haystack, needle))
-}
 func strStr(haystack string, needle string) int {
 	if needle == "" || len(needle) == 0 {
 		return 0
@@ -29,4 +24,10 @@ func strStr(haystack string, needle string) int {
 		}
 	}
 	return -1
+}
+
+func main() {
+	haystack := "hello"
+	needle := "l"
+	fmt.Println(strStr(haystack, needle))
 }
