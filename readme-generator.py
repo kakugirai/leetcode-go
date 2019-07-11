@@ -5,10 +5,12 @@ import os
 import requests
 import json
 
+# [![CircleCI](https://circleci.com/gh/kakugirai/leetcode-go.svg?style=svg)](https://circleci.com/gh/kakugirai/leetcode-go)
+
 head = """# leetcode-go
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
-[![CircleCI](https://circleci.com/gh/kakugirai/leetcode-go.svg?style=svg)](https://circleci.com/gh/kakugirai/leetcode-go)
+[![Build Status](https://travis-ci.org/kakugirai/leetcode-go.svg?branch=master)](https://travis-ci.org/kakugirai/leetcode-go)
 
 My LeetCode solutions primarily written in Go. Don't expect too much on those questions solved in other random languages.
 
