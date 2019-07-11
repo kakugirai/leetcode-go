@@ -39,5 +39,5 @@ func letterCombinationsRecursive(result *[]string, digits string, current string
 }
 
 func main() {
-	fmt.Println(letterCombinations("23"))
+	fmt.Printf("%#v", letterCombinations("23"))
 }

@@ -5,12 +5,6 @@ import (
 	"strings"
 )
 
-func main() {
-	strs := []string{"flower", "flow", "flo"}
-	fmt.Println(longestCommonPrefix4(strs))
-	fmt.Println(1<<32 - 1)
-}
-
 // Approach 1: Horizontal scanning
 func longestCommonPrefix(strs []string) string {
 	// check if strs empty
@@ -51,16 +45,16 @@ func longestCommonPrefix3(strs []string) string {
 	if len(strs) == 0 {
 		return ""
 	}
-	return longestCommonPrefixT(strs, 0, len(strs)-1)
+	return dfs(strs, 0, len(strs)-1)
 }
 
-func longestCommonPrefixT(strs []string, l int, r int) string {
+func dfs(strs []string, l int, r int) string {
 	if l == r {
 		return strs[l]
 	}
 	mid := (l + r) / 2
-	lcpLeft := longestCommonPrefixT(strs, l, mid)
-	lcpRight := longestCommonPrefixT(strs, mid+1, r)
+	lcpLeft := dfs(strs, l, mid)
+	lcpRight := dfs(strs, mid+1, r)
 	return commonPrefix(lcpLeft, lcpRight)
 }
 
@@ -112,4 +106,11 @@ func isCommonPrefix(strs []string, len int) bool {
 		}
 	}
 	return true
+}
+
+func main() {
+	strs := []string{"flower", "flow", "flo"}
+	fmt.Println(longestCommonPrefix2(strs))
+	fmt.Println(longestCommonPrefix3(strs))
+	fmt.Println(longestCommonPrefix4(strs))
 }
