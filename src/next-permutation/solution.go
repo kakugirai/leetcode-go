@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func nextPermutation(nums []int) {
 	if len(nums) == 0 || len(nums) == 1 {
 		return
@@ -22,11 +24,8 @@ func nextPermutation(nums []int) {
 			next = i
 		}
 	}
-	//fmt.Println(low)
-	//fmt.Println(next)
 	swap(nums, low, next)
 	reverse(nums, low+1)
-	//fmt.Println(nums)
 }
 
 func reverse(nums []int, low int) {
@@ -46,4 +45,5 @@ func main() {
 	//nums := []int{3, 2, 1}
 	//nums := []int{1, 2, 5, 4, 3}
 	nextPermutation(nums)
+	fmt.Printf("%#v", nums)
 }

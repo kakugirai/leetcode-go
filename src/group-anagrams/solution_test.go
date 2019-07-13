@@ -17,9 +17,9 @@ func Test_groupAnagrams(t *testing.T) {
 		{
 			"1",
 			args{
-				[]string{"eat", "tea", "tan", "ate", "nat", "bat"},
+				[]string{"eat", "tea", "ate"},
 			},
-			[][]string{{"eat", "tea", "ate"}, {"tan", "nat"}, {"bat"}},
+			[][]string{{"eat", "tea", "ate"}},
 		},
 	}
 	for _, tt := range tests {

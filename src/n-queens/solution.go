@@ -55,5 +55,5 @@ func isValid(queens *[][]byte, row int, col int, n int) bool {
 }
 
 func main() {
-	fmt.Println(solveNQueens(4))
+	fmt.Printf("%#v", solveNQueens(4))
 }

@@ -2,12 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	nums := []int{0, 1, 0, 3, 1, 2}
-	moveZeroes(nums)
-	fmt.Println(nums)
-}
-
 func moveZeroes(nums []int) {
 	var i, j int
 	for i < len(nums) {
@@ -21,4 +15,10 @@ func moveZeroes(nums []int) {
 		nums[j] = 0
 		j++
 	}
+}
+
+func main() {
+	nums := []int{0, 1, 0, 3, 1, 2}
+	moveZeroes(nums)
+	fmt.Printf("%#v", nums)
 }

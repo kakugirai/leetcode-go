@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	var i, j int
 	var result []int
@@ -27,4 +29,5 @@ func main() {
 	nums1 := []int{1, 3, 5, 0, 0, 0}
 	nums2 := []int{2, 4, 6}
 	merge(nums1, 3, nums2, 3)
+	fmt.Printf("%#v", nums1)
 }

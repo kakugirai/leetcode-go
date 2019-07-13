@@ -33,5 +33,4 @@ func multiply(num1 string, num2 string) string {
 
 func main() {
 	fmt.Println(multiply("408", "5"))
-	fmt.Println(408 * 5)
 }
