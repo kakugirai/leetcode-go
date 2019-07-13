@@ -12,11 +12,12 @@ head = """# leetcode-go
 [![Go Report Card](https://goreportcard.com/badge/github.com/kakugirai/leetcode-go)](https://goreportcard.com/report/github.com/kakugirai/leetcode-go)
 [![Build Status](https://travis-ci.org/kakugirai/leetcode-go.svg?branch=master)](https://travis-ci.org/kakugirai/leetcode-go)
 
-My LeetCode solutions primarily written in Go. Don't expect too much on those questions solved in other random languages.
+My LeetCode solutions primarily written in Go.
+Don't expect too much on those questions solved in other random languages.
 
-## Wanna start your LeetCode journey?
+## README Generator Usage
 
-Feel free to copy the cookies from your browser, write them into a `cookies.json` file,
+Copy the cookies from your browser and write them into a `cookies.json` file,
 
 ```
 {
@@ -29,7 +30,7 @@ Feel free to copy the cookies from your browser, write them into a `cookies.json
 }
 ```
 
-and copy the `readme-generator.py` to your directory. Here you ≡Go!
+Run `readme-generator.py`. Here you ≡Go!
 
 ## My progress
 
@@ -70,6 +71,8 @@ if __name__ == "__main__":
             done = os.listdir(os.path.join('src', question__title_slug))
             answers_path_arr = []
             for answer in done:
+                if answer == "solution_test.go":
+                    continue
                 lang = answer.split('.')[-1]
                 answer_path = ""
                 if lang == 'go':
