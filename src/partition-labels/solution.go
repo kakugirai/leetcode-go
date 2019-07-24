@@ -32,5 +32,5 @@ func partitionLabels(S string) []int {
 
 func main() {
 	S := "ababcbacadefegdehijhklij"
-	fmt.Println(partitionLabels(S))
+	fmt.Printf("%#v", partitionLabels(S))
 }

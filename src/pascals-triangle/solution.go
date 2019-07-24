@@ -24,5 +24,5 @@ func generate(numRows int) [][]int {
 }
 
 func main() {
-	fmt.Println(generate(4))
+	fmt.Printf("%#v", generate(4))
 }

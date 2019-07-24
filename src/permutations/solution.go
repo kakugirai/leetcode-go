@@ -31,5 +31,5 @@ func generatePermutation(nums []int, curr []int, m map[int]struct{}, result *[][
 }
 
 func main() {
-	fmt.Println(permute([]int{5, 4, 2, 6}))
+	fmt.Printf("%#v", permute([]int{5, 4, 2, 6}))
 }

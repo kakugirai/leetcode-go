@@ -16,5 +16,5 @@ func getRow(rowIndex int) []int {
 }
 
 func main() {
-	fmt.Println(getRow(5))
+	fmt.Printf("%#v", getRow(5))
 }
