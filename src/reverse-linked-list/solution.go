@@ -21,6 +21,6 @@ func reverseList(head *ListNode) *ListNode {
 }
 
 func main() {
-	head := ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
-	fmt.Println(reverseList(&head))
+	head := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
+	fmt.Println(reverseList(head))
 }

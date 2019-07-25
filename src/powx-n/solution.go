@@ -16,6 +16,6 @@ func myPow(x float64, n int) float64 {
 }
 
 func main() {
-	x := 2.1
+	x := 2.0
 	fmt.Println(myPow(x, 3))
 }

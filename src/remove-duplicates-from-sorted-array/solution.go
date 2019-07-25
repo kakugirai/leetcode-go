@@ -2,11 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	nums := []int{1, 2, 3, 4, 4, 5}
-	fmt.Println(removeDuplicates(nums))
-}
-
 func removeDuplicates(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -19,4 +14,9 @@ func removeDuplicates(nums []int) int {
 		}
 	}
 	return i + 1
+}
+
+func main() {
+	nums := []int{1, 2, 3, 4, 4, 5}
+	fmt.Println(removeDuplicates(nums))
 }

@@ -23,7 +23,7 @@ func reverse(x int) int {
 
 func main() {
 	result := reverse(-210)
-	fmt.Println(reverse(result))
+	fmt.Println(result)
 	fmt.Println(2<<31 - 1)
 	fmt.Println(2147483651)
 }

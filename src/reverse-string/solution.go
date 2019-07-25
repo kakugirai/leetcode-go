@@ -11,5 +11,5 @@ func reverseString(s []byte) {
 func main() {
 	s := []byte{'a', 'b', 'd', 'e'}
 	reverseString(s)
-	fmt.Println(s)
+	fmt.Printf("%#v", s)
 }

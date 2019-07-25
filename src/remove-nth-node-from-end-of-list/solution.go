@@ -33,5 +33,8 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 
 func main() {
 	head := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
-	fmt.Println(removeNthFromEnd(head, 2))
+	removeNthFromEnd(head, 2)
+	for root := head; root != nil; root = root.Next {
+		fmt.Println(root.Val)
+	}
 }
