@@ -19,5 +19,5 @@ func sortArrayByParity(A []int) []int {
 }
 
 func main() {
-	fmt.Println(sortArrayByParity([]int{3, 1, 2, 4}))
+	fmt.Printf("%#v", sortArrayByParity([]int{3, 1, 2, 4}))
 }

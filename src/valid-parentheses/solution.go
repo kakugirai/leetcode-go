@@ -12,11 +12,6 @@ func (s stack) Pop() (stack, byte) {
 	return s[:len(s)-1], s[len(s)-1]
 }
 
-func main() {
-	str := "{}["
-	fmt.Println(isValid(str))
-}
-
 func isValid(str string) bool {
 	// create the stack to keep track of brackets
 	var s stack
@@ -44,4 +39,9 @@ func isValid(str string) bool {
 		}
 	}
 	return len(s) == 0
+}
+
+func main() {
+	str := "{}["
+	fmt.Println(isValid(str))
 }

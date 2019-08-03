@@ -28,7 +28,7 @@ func frequencySort(s string) string {
 		freq[s[i]]++
 	}
 
-	// strs := [ttt ee r]
+	//strs := []string{"ttt", "ee", "r"}
 	var strs []string
 	for i := range freq {
 		if freq[i] == 0 {
@@ -54,5 +54,5 @@ func frequencySort(s string) string {
 }
 
 func main() {
-	fmt.Println(frequencySort("tttree"))
+	fmt.Printf("%#v", frequencySort("tttree"))
 }

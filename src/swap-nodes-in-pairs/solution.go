@@ -19,6 +19,9 @@ func swapPairs(head *ListNode) *ListNode {
 }
 
 func main() {
-	head := ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
-	fmt.Println(swapPairs(&head))
+	head := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
+	ss := swapPairs(head)
+	for root := ss; root != nil; root = root.Next {
+		fmt.Println(root.Val)
+	}
 }

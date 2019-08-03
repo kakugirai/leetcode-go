@@ -51,5 +51,5 @@ func topKFrequent(nums []int, k int) []int {
 
 func main() {
 	nums := []int{1, 1, 1, 2, 2, 3}
-	fmt.Println(topKFrequent(nums, 3))
+	fmt.Printf("%#v", topKFrequent(nums, 3))
 }

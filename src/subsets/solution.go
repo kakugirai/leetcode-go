@@ -24,5 +24,5 @@ func generateSubsets(nums []int, idx int, curr *[]int, result *[][]int) {
 
 func main() {
 	nums := []int{1, 2, 3}
-	fmt.Println(subsets(nums))
+	fmt.Printf("%#v", subsets(nums))
 }
