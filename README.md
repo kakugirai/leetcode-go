@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|149|81|59|9|
+|150|82|59|9|
 
 
 ## Solutions
@@ -137,6 +137,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|Medium|[Go](src/find-the-duplicate-number/solution.go)|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|Easy|[Go](src/range-sum-query-immutable/solution.go)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change)|Medium|[Go](src/coin-change/solution.go)|
+|326|[Power of Three](https://leetcode.com/problems/power-of-three)|Easy|[Go](src/power-of-three/solution.go)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|Easy|[Go](src/reverse-string/solution.go)|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|Medium|[Go](src/top-k-frequent-elements/solution.go)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|Easy|[Go](src/intersection-of-two-arrays/solution.go)|
