@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|150|82|59|9|
+|151|83|59|9|
 
 
 ## Solutions
@@ -182,6 +182,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |940|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)|Medium|[Go](src/fruit-into-baskets/solution.go)|
 |941|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|Easy|[Go](src/sort-array-by-parity/solution.go)|
 |965|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|Easy|[Go](src/unique-email-addresses/solution.go)|
+|978|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array)|Easy|[Go](src/valid-mountain-array/solution.go)|
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|Easy|[Go](src/fibonacci-number/solution.go)|
 |1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|Medium|[Go](src/k-closest-points-to-origin/solution.go)|
 |1078|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)|Easy|[Go](src/remove-outermost-parentheses/solution.go)|
