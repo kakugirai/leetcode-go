@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|151|83|59|9|
+|152|83|60|9|
 
 
 ## Solutions
@@ -75,6 +75,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii)|Hard|[Go](src/n-queens-ii/solution.go)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|Easy|[Go](src/maximum-subarray/solution.go)|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths)|Medium|[Go](src/unique-paths/solution.go)|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|Medium|[Go](src/minimum-path-sum/solution.go)|
 |66|[Plus One](https://leetcode.com/problems/plus-one)|Easy|[Go](src/plus-one/solution.go)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|Easy|[Go](src/add-binary/solution.go)|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|Easy|[Go](src/sqrtx/solution.go)|
