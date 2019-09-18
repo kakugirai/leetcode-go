@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|152|83|60|9|
+|153|84|60|9|
 
 
 ## Solutions
@@ -130,6 +130,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|Easy|[Go](src/lowest-common-ancestor-of-a-binary-search-tree/solution.go)|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|Easy|[Go](src/delete-node-in-a-linked-list/solution.go)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|Easy|[Go](src/valid-anagram/solution.go)|
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths)|Easy|[Go](src/binary-tree-paths/solution.go)|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number)|Easy|[Go](src/ugly-number/solution.go)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number)|Easy|[Go](src/missing-number/solution.go)|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version)|Easy|[Java](src/first-bad-version/solution.java)|
