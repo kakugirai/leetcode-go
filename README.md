@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|154|85|60|9|
+|155|85|61|9|
 
 
 ## Solutions
@@ -114,6 +114,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|Easy|[Go](src/two-sum-ii-input-array-is-sorted/solution.go)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element)|Easy|[Go](src/majority-element/solution.go)|
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)|Medium|[Go](src/binary-search-tree-iterator/solution.go)|
+|187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)|Medium|[Go](src/repeated-dna-sequences/solution.go)|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array)|Easy|[Go](src/rotate-array/solution.go)|
 |198|[House Robber](https://leetcode.com/problems/house-robber)|Easy|[Go](src/house-robber/solution.go)|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|Medium|[Go](src/binary-tree-right-side-view/solution.go)|
