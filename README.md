@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|153|84|60|9|
+|154|85|60|9|
 
 
 ## Solutions
@@ -141,6 +141,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |322|[Coin Change](https://leetcode.com/problems/coin-change)|Medium|[Go](src/coin-change/solution.go)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three)|Easy|[Go](src/power-of-three/solution.go)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|Easy|[Go](src/reverse-string/solution.go)|
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)|Easy|[Go](src/reverse-vowels-of-a-string/solution.go)|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|Medium|[Go](src/top-k-frequent-elements/solution.go)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|Easy|[Go](src/intersection-of-two-arrays/solution.go)|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|Easy|[Go](src/intersection-of-two-arrays-ii/solution.go)|
