@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|155|85|61|9|
+|156|86|61|9|
 
 
 ## Solutions
@@ -121,6 +121,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|Medium|[Go](src/number-of-islands/solution.go)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number)|Easy|[Go](src/happy-number/solution.go)|
 |204|[Count Primes](https://leetcode.com/problems/count-primes)|Easy|[Go](src/count-primes/solution.go)|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)|Easy|[Go](src/isomorphic-strings/solution.go)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|Easy|[Go](src/reverse-linked-list/solution.go)|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|Medium|[Go](src/kth-largest-element-in-an-array/solution.go)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|Easy|[Go](src/contains-duplicate/solution.go)|
