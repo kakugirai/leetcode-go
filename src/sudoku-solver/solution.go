@@ -13,9 +13,8 @@ func solve(board *[][]byte) bool {
 						(*board)[i][j] = byte(k + '0')
 						if solve(board) {
 							return true
-						} else {
-							(*board)[i][j] = '.'
 						}
+						(*board)[i][j] = '.'
 					}
 				}
 				return false

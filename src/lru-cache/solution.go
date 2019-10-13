@@ -8,7 +8,7 @@ import (
 // LRUCache contains a map and a doubly linked list
 type LRUCache struct {
 	cap int                   // capacity
-	l   *list	.List            // doubly linked list
+	l   *list.List            // doubly linked list
 	m   map[int]*list.Element // hash table for checking if list node exists
 }
 
@@ -72,8 +72,8 @@ func (c *LRUCache) Put(key int, value int) {
 }
 
 func main() {
-	obj := Constructor(2)   // nil
-	obj.Put(1, 10)          // nil, linked list: [1:10]
+	obj := Constructor(2) // nil
+	obj.Put(1, 10)        // nil, linked list: [1:10]
 	fmt.Println(obj.l)
 	fmt.Println(obj.Get(1)) // -1, linked list: [4:40, 3:30]
 	obj.Put(2, 20)          // nil, linked list: [2:20, 1:10]

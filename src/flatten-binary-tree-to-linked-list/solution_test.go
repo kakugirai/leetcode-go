@@ -31,4 +31,3 @@ func Test_flatten(t *testing.T) {
 		})
 	}
 }
-

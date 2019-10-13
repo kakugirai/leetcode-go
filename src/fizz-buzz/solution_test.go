@@ -28,4 +28,3 @@ func Test_fizzBuzz(t *testing.T) {
 		})
 	}
 }
-

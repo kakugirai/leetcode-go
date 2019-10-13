@@ -40,4 +40,3 @@ func Test_preorderTraversal(t *testing.T) {
 		})
 	}
 }
-

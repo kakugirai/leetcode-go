@@ -28,4 +28,3 @@ func Test_numJewelsInStones(t *testing.T) {
 		})
 	}
 }
-

@@ -27,5 +27,3 @@ func Test_firstUniqChar(t *testing.T) {
 		})
 	}
 }
-
-

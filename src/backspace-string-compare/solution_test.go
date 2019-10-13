@@ -28,4 +28,3 @@ func Test_backspaceCompare(t *testing.T) {
 		})
 	}
 }
-

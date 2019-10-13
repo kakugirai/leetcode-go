@@ -26,4 +26,3 @@ func Test_minDistance(t *testing.T) {
 		})
 	}
 }
-

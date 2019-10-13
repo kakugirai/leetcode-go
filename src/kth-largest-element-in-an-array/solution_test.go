@@ -4,7 +4,6 @@ import (
 	"testing"
 )
 
-
 func Test_findKthLargest(t *testing.T) {
 	type args struct {
 		nums []int
@@ -31,4 +30,3 @@ func Test_findKthLargest(t *testing.T) {
 		})
 	}
 }
-

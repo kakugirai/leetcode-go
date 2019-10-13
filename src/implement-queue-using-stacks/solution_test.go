@@ -47,7 +47,6 @@ func Test_stack_Empty(t *testing.T) {
 	}
 }
 
-
 func Test_stack_Peek(t *testing.T) {
 	tests := []struct {
 		name string
@@ -76,10 +75,10 @@ func TestConstructor(t *testing.T) {
 	}{
 		{
 			"1",
-			 MyQueue{
-			 	new(stack),
-			 	new(stack),
-			 },
+			MyQueue{
+				new(stack),
+				new(stack),
+			},
 		},
 	}
 	for _, tt := range tests {
@@ -154,4 +153,3 @@ func TestMyQueue_Empty(t *testing.T) {
 		})
 	}
 }
-

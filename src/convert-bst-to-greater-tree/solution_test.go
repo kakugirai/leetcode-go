@@ -28,4 +28,3 @@ func Test_convertBST(t *testing.T) {
 		})
 	}
 }
-

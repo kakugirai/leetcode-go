@@ -13,7 +13,7 @@ func Test_reverseVowels(t *testing.T) {
 	}{
 		{
 			"1",
-			args{s:"lEetcode"},
+			args{s: "lEetcode"},
 			"leotcedE",
 		},
 	}
