@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|156|86|61|9|
+|158|88|61|9|
 
 
 ## Solutions
@@ -94,6 +94,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|Easy|[Go](src/maximum-depth-of-binary-tree/solution.go)|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|Easy|[Go](src/convert-sorted-array-to-binary-search-tree/solution.go)|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)|Medium|[Go](src/convert-sorted-list-to-binary-search-tree/solution.go)|
+|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|Easy|[Go](src/balanced-binary-tree/solution.go)|
 |112|[Path Sum](https://leetcode.com/problems/path-sum)|Easy|[Go](src/path-sum/solution.go)|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii)|Medium|[Go](src/path-sum-ii/solution.go)|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)|Medium|[Go](src/flatten-binary-tree-to-linked-list/solution.go)|
@@ -110,6 +111,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache)|Medium|[Go](src/lru-cache/solution.go)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|Medium|[Go](src/find-minimum-in-rotated-sorted-array/solution.go)|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|Hard|[Go](src/find-minimum-in-rotated-sorted-array-ii/solution.go)|
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)|Easy|[Go](src/intersection-of-two-linked-lists/solution.go)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)|Medium|[Go](src/find-peak-element/solution.go)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|Easy|[Go](src/two-sum-ii-input-array-is-sorted/solution.go)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element)|Easy|[Go](src/majority-element/solution.go)|
