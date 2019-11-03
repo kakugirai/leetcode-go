@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|161|89|63|9|
+|162|89|64|9|
 
 
 ## Solutions
@@ -196,3 +196,4 @@ Run `readme-generator.py`. Here you ≡Go!
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|Easy|[Go](src/fibonacci-number/solution.go)|
 |1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|Medium|[Go](src/k-closest-points-to-origin/solution.go)|
 |1078|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)|Easy|[Go](src/remove-outermost-parentheses/solution.go)|
+|1207|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest)|Medium|[Go](src/delete-nodes-and-return-forest/solution.go)|
