@@ -9,10 +9,10 @@ func minimumSwap(s1 string, s2 string) int {
 	m := make(map[int]int)
 	for i := range s1 {
 		if s1[i] == 'x' && s2[i] == 'y' {
-			m[0] += 1
+			m[0]++
 		}
 		if s1[i] == 'y' && s2[i] == 'x' {
-			m[1] += 1
+			m[1]++
 		}
 	}
 	if (m[0]-m[1])%2 != 0 {

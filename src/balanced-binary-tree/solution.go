@@ -9,6 +9,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+// IsBalanced check if TreeNode is balanced
 var IsBalanced bool
 
 func isBalanced(root *TreeNode) bool {
@@ -37,9 +38,8 @@ func getHeight(root *TreeNode) int {
 
 	if left > right {
 		return left + 1
-	} else {
-		return right + 1
 	}
+	return right + 1
 }
 
 func main() {

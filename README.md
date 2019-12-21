@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|163|89|65|9|
+|165|90|66|9|
 
 
 ## Solutions
@@ -48,11 +48,11 @@ Run `readme-generator.py`. Here you ≡Go!
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|Easy|[Go](src/longest-common-prefix/solution.go)|
 |15|[3Sum](https://leetcode.com/problems/3sum)|Medium|[Go](src/3sum/solution.go)|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|Medium|[Go](src/letter-combinations-of-a-phone-number/solution.go)|
-|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|Medium|[Python](src/remove-nth-node-from-end-of-list/solution.py), [Go](src/remove-nth-node-from-end-of-list/solution.go)|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|Medium|[Go](src/remove-nth-node-from-end-of-list/solution.go), [Python](src/remove-nth-node-from-end-of-list/solution.py)|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|Easy|[Go](src/valid-parentheses/solution.go)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|Easy|[Go](src/merge-two-sorted-lists/solution.go)|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|Medium|[Go](src/generate-parentheses/solution.go)|
-|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|Hard|[Java](src/merge-k-sorted-lists/solution.java), [Go](src/merge-k-sorted-lists/solution.go)|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|Hard|[Go](src/merge-k-sorted-lists/solution.go), [Java](src/merge-k-sorted-lists/solution.java)|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|Medium|[Go](src/swap-nodes-in-pairs/solution.go)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|Easy|[Go](src/remove-duplicates-from-sorted-array/solution.go)|
 |27|[Remove Element](https://leetcode.com/problems/remove-element)|Easy|[Go](src/remove-element/solution.go)|
@@ -83,7 +83,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|Easy|[Go](src/climbing-stairs/solution.go)|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance)|Hard|[Go](src/edit-distance/solution.go)|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|Medium|[Go](src/set-matrix-zeroes/solution.go)|
-|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|Medium|[Python](src/search-a-2d-matrix/solution.py), [Go](src/search-a-2d-matrix/solution.go)|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|Medium|[Go](src/search-a-2d-matrix/solution.go), [Python](src/search-a-2d-matrix/solution.py)|
 |78|[Subsets](https://leetcode.com/problems/subsets)|Medium|[Go](src/subsets/solution.go)|
 |79|[Word Search](https://leetcode.com/problems/word-search)|Medium|[Go](src/word-search/solution.go)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|Easy|[Go](src/merge-sorted-array/solution.go)|
@@ -146,6 +146,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|Easy|[Go](src/range-sum-query-immutable/solution.go)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change)|Medium|[Go](src/coin-change/solution.go)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three)|Easy|[Go](src/power-of-three/solution.go)|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|Medium|[Go](src/odd-even-linked-list/solution.go)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|Easy|[Go](src/reverse-string/solution.go)|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)|Easy|[Go](src/reverse-vowels-of-a-string/solution.go)|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|Medium|[Go](src/top-k-frequent-elements/solution.go)|
@@ -192,6 +193,7 @@ Run `readme-generator.py`. Here you ≡Go!
 |940|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)|Medium|[Go](src/fruit-into-baskets/solution.go)|
 |941|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|Easy|[Go](src/sort-array-by-parity/solution.go)|
 |965|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|Easy|[Go](src/unique-email-addresses/solution.go)|
+|975|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst)|Easy|[Go](src/range-sum-of-bst/solution.go)|
 |978|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array)|Easy|[Go](src/valid-mountain-array/solution.go)|
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|Easy|[Go](src/fibonacci-number/solution.go)|
 |1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|Medium|[Go](src/k-closest-points-to-origin/solution.go)|
