@@ -28,7 +28,7 @@ Run `readme-generator.py`. Here you ≡Go!
 
 | Solved | Easy | Medium | Hard |
 | :----: | :--: | :----: | :--: |
-|165|90|66|9|
+|166|90|67|9|
 
 
 ## Solutions
@@ -130,7 +130,8 @@ Run `readme-generator.py`. Here you ≡Go!
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|Medium|[Go](src/kth-largest-element-in-an-array/solution.go)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|Easy|[Go](src/contains-duplicate/solution.go)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)|Easy|[Go](src/contains-duplicate-ii/solution.go)|
-|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|Easy|[Go](src/invert-binary-tree/solution.go)|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|Easy|, [Go](src/invert-binary-tree/solution.go)|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|Medium|[Go](src/kth-smallest-element-in-a-bst/solution.go)|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two)|Easy|[Go](src/power-of-two/solution.go)|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)|Easy|[Go](src/implement-queue-using-stacks/solution.go)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|Easy|[Go](src/lowest-common-ancestor-of-a-binary-search-tree/solution.go)|

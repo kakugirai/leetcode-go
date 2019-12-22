@@ -9,12 +9,14 @@ type ListNode struct {
 }
 
 func oddEvenList(head *ListNode) *ListNode {
-	if head == nil {
-		return nil
+	// no need to modify the list
+	if head == nil || head.Next == nil {
+		return head
 	}
-	odd := head
-	even := head.Next
-	evenHead := even
+	// odd and even pointer
+	odd, even := head, head.Next
+	// odd and even head
+	oddHead, evenHead := odd, even
 	for even != nil && even.Next != nil {
 		odd.Next = even.Next
 		odd = odd.Next
@@ -22,7 +24,7 @@ func oddEvenList(head *ListNode) *ListNode {
 		even = even.Next
 	}
 	odd.Next = evenHead
-	return head
+	return oddHead
 }
 
 func main() {
